@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "SIC_431_supporting")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/SIC_431_supporting")(options "")(descr ""))
+  (lib (name "power_board_support")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/footprints/power_board_support")(options "")(descr ""))
+)
