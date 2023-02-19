@@ -4741,7 +4741,7 @@
     (uuid be8a1446-c460-4ce8-8c5a-a6e97ca6fc24)
     (property "Reference" "J105" (id 0) (at 286.004 164.5625 0))
     (property "Value" "Conn_02x02_Top_Bottom" (id 1) (at 286.004 167.3376 0))
-    (property "Footprint" "power_board_support:LM2596" (id 2) (at 284.734 169.799 0)
+    (property "Footprint" "power_board_support:LM2596-2" (id 2) (at 284.734 169.799 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 284.734 169.799 0)
@@ -4824,7 +4824,7 @@
     (uuid c846d084-ce0f-49f0-9b0a-7aaf9b28c028)
     (property "Reference" "J106" (id 0) (at 286.004 207.3615 0))
     (property "Value" "Conn_02x02_Top_Bottom" (id 1) (at 286.004 210.1366 0))
-    (property "Footprint" "power_board_support:LM2596" (id 2) (at 284.734 212.598 0)
+    (property "Footprint" "power_board_support:LM2596-2" (id 2) (at 284.734 212.598 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 284.734 212.598 0)
@@ -5134,7 +5134,7 @@
     (uuid f769bbb1-d71c-475e-8e96-2bf6bcda2c03)
     (property "Reference" "J107" (id 0) (at 286.131 182.9775 0))
     (property "Value" "Conn_02x02_Top_Bottom" (id 1) (at 286.131 185.7526 0))
-    (property "Footprint" "power_board_support:LM2596" (id 2) (at 284.861 188.214 0)
+    (property "Footprint" "power_board_support:LM2596-2" (id 2) (at 284.861 188.214 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 284.861 188.214 0)
@@ -5381,13 +5381,13 @@
       (reference "J104") (unit 1) (value "Screw_Terminal_01x06") (footprint "power_board_support:691137710006")
     )
     (path "/be8a1446-c460-4ce8-8c5a-a6e97ca6fc24"
-      (reference "J105") (unit 1) (value "Conn_02x02_Top_Bottom") (footprint "power_board_support:LM2596")
+      (reference "J105") (unit 1) (value "Conn_02x02_Top_Bottom") (footprint "power_board_support:LM2596-2")
     )
     (path "/c846d084-ce0f-49f0-9b0a-7aaf9b28c028"
-      (reference "J106") (unit 1) (value "Conn_02x02_Top_Bottom") (footprint "power_board_support:LM2596")
+      (reference "J106") (unit 1) (value "Conn_02x02_Top_Bottom") (footprint "power_board_support:LM2596-2")
     )
     (path "/f769bbb1-d71c-475e-8e96-2bf6bcda2c03"
-      (reference "J107") (unit 1) (value "Conn_02x02_Top_Bottom") (footprint "power_board_support:LM2596")
+      (reference "J107") (unit 1) (value "Conn_02x02_Top_Bottom") (footprint "power_board_support:LM2596-2")
     )
     (path "/5c31fb08-a1cc-4a5a-afba-aeb7592f39b3"
       (reference "J108") (unit 1) (value "Screw_Terminal_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
