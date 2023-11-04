@@ -170,7 +170,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp 01e6a3a9-797f-415b-ac17-7dcd34f29eec)
-    (at 208.28 121.92 180)
+    (at 201.34 109.22 180)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -482,7 +482,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 0efab76a-bc83-4822-90ed-c0bda2f17f7c)
-    (at 219.3775 88.9)
+    (at 186.3575 66.04)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -540,7 +540,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x10_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp 4b35efd8-0999-48a6-834a-1fdd2dce2a47)
-    (at 116.78 38)
+    (at 109.16 45.72)
     (descr "Terminal Block 4Ucon ItemNo. 10687, 10 pins, pitch 3.5mm, size 35.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/10687.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 10687 pitch 3.5mm size 35.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -912,7 +912,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 570092cc-a6ed-46de-88ed-197fe834b42a)
-    (at 214.2725 104.14)
+    (at 192.1275 81.28)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -966,7 +966,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp 5a19d6cc-bf9d-45bc-94ae-20732fd1d8d7)
-    (at 154.94 38.1)
+    (at 146.98 45.72)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -1278,7 +1278,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 76a766cb-d890-409f-8771-7133d68800b0)
-    (at 214.9875 109.22)
+    (at 192.1275 86.36)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -1332,7 +1332,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 77c96671-44d5-45ea-876e-d4831f055ed9)
-    (at 220.7375 93.98)
+    (at 185.1775 71.12)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -1390,7 +1390,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp 8229b0b7-df11-49c8-bca2-d8ad28753aa9)
-    (at 184.74 38.1)
+    (at 176.84 45.72)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -1702,7 +1702,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp 946a589b-9b7f-4fde-99b7-8574c7aa94dd)
-    (at 214.9875 99.06)
+    (at 192.1275 76.2)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -1756,7 +1756,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp 995fa965-0b99-4369-bda6-22397d41d349)
-    (at 228.6 85.4 -90)
+    (at 213.36 91.44 -90)
     (descr "Terminal Block 4Ucon ItemNo. 20001, 4 pins, pitch 3.5mm, size 14.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/20001.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 20001 pitch 3.5mm size 14.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -1948,7 +1948,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp a7b9b2f1-1ebf-43c5-882d-3759e801cdf4)
-    (at 238.76 106.23 90)
+    (at 160.02 88 90)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -2260,7 +2260,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x07_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp aa22af0d-9057-4190-a575-44263efb714d)
-    (at 147.32 121.92 180)
+    (at 141 109.22 180)
     (descr "Terminal Block 4Ucon ItemNo. 10684, 7 pins, pitch 3.5mm, size 25.2x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/10684.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 10684 pitch 3.5mm size 25.2x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -2542,7 +2542,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp aa4e2029-5327-45b6-8451-cef3b2535c02)
-    (at 231.24 39.34 -90)
+    (at 213.36 48.26 -90)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -2854,7 +2854,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp aebe29e5-b54f-4ff5-899f-7788fef25a4a)
-    (at 220.98 99.06)
+    (at 185.42 76.2)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -2912,7 +2912,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp b298def0-d419-440c-915f-c9a7f5579b2c)
-    (at 220.98 104.14)
+    (at 185.42 81.28)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -2970,7 +2970,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp d6d7f499-73bf-452f-9acc-d956388a90d5)
-    (at 177.8 121.92 180)
+    (at 171.48 109.22 180)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -3282,7 +3282,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp e06de523-b228-4dc9-8a41-64d5da3e1793)
-    (at 223.52 70.16 -90)
+    (at 213.36 78.74 -90)
     (descr "Terminal Block 4Ucon ItemNo. 20193, 3 pins, pitch 3.5mm, size 11.2x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/20193.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 20193 pitch 3.5mm size 11.2x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -3444,7 +3444,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp e53291ab-5e39-418f-922e-9e486fe46151)
-    (at 220.7375 109.22)
+    (at 185.1775 86.36)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -3502,7 +3502,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp eef66eb9-971f-4c0d-9ae7-9b60a98053cf)
-    (at 214.9875 88.9)
+    (at 192.1275 66.04)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -3556,7 +3556,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tstamp f137dab3-a238-40fa-9dc3-5a6d3b2eda32)
-    (at 214.9875 93.98)
+    (at 192.1275 71.12)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
@@ -3742,7 +3742,7 @@
       (stroke (width 0.15) (type solid)) (layer "B.CrtYd") (tstamp ed153f5f-ea5d-4dfc-b625-5c9b1f654c29))
     (fp_arc (start 98.552 0.254) (mid 96.52 0.914237) (end 94.488 0.254)
       (stroke (width 0.15) (type solid)) (layer "B.CrtYd") (tstamp 703e4fbb-8ade-471b-ab66-1399302e8aa5))
-    (fp_arc (start 99.8728 -1.7018) (mid 99.650925 -1.077973) (end 99.314 -0.508)
+    (fp_arc (start 99.8728 -1.7018) (mid 99.650929 -1.077971) (end 99.314 -0.508)
       (stroke (width 0.15) (type solid)) (layer "B.CrtYd") (tstamp 037dab17-9885-453e-a87d-eb6d00df3ca4))
     (fp_circle (center 13.97 -2.54) (end 17.42 -2.54)
       (stroke (width 0.15) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 46fd5c4a-bbf6-419d-8732-e4e745834c05))
@@ -4004,7 +4004,7 @@
 
   (footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal" (layer "F.Cu")
     (tstamp fba5bd7a-3a29-46a4-a569-fd07b5dedfe6)
-    (at 246.28 75.3 90)
+    (at 147.32 88.28 90)
     (descr "Terminal Block 4Ucon ItemNo. 19965, 8 pins, pitch 3.5mm, size 28.7x7mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see http://www.4uconnector.com/online/object/4udrawing/19965.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_4Ucon")
     (tags "THT Terminal Block 4Ucon ItemNo. 19965 pitch 3.5mm size 28.7x7mm^2 drill 1.2mm pad 2.4mm")
     (property "Sheetfile" "Arduino Shield.kicad_sch")
