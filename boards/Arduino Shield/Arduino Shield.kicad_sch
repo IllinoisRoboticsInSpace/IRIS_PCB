@@ -2015,7 +2015,7 @@
   (symbol (lib_id "Device:LED") (at 87.63 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7552f4b8-dbdd-4238-b464-4d12fa0972f8)
-    (property "Reference" "D5" (at 91.44 156.21 90)
+    (property "Reference" "D4" (at 91.44 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 91.44 153.67 90)
@@ -2032,7 +2032,7 @@
     (instances
       (project "Arduino Shield"
         (path "/d32bdb2e-fa3a-461a-9e34-c0053c91b5d5"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2257,7 +2257,7 @@
   (symbol (lib_id "Device:LED") (at 162.56 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d79bcaaa-ed01-4829-a1ed-b19a8990cc54)
-    (property "Reference" "D2" (at 166.37 153.9875 90)
+    (property "Reference" "D3" (at 166.37 153.9875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 166.37 156.5275 90)
@@ -2274,7 +2274,7 @@
     (instances
       (project "Arduino Shield"
         (path "/d32bdb2e-fa3a-461a-9e34-c0053c91b5d5"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2435,7 +2435,7 @@
   (symbol (lib_id "Device:LED") (at 154.94 158.75 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7276652-180a-4f7d-8ea6-f13b38927ec3)
-    (property "Reference" "D1" (at 158.75 159.0675 90)
+    (property "Reference" "D5" (at 158.75 159.0675 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 158.75 161.6075 90)
@@ -2452,7 +2452,7 @@
     (instances
       (project "Arduino Shield"
         (path "/d32bdb2e-fa3a-461a-9e34-c0053c91b5d5"
-          (reference "D1") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2461,7 +2461,7 @@
   (symbol (lib_id "Device:LED") (at 170.18 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e75e6687-2506-4d14-9e94-e77aff7b991b)
-    (property "Reference" "D3" (at 173.99 150.1775 90)
+    (property "Reference" "D1" (at 173.99 150.1775 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 173.99 152.7175 90)
@@ -2478,7 +2478,7 @@
     (instances
       (project "Arduino Shield"
         (path "/d32bdb2e-fa3a-461a-9e34-c0053c91b5d5"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2550,7 +2550,7 @@
   (symbol (lib_id "Device:LED") (at 85.09 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2bc14e8-6e6c-4b3b-8f11-4e85dfa7d813)
-    (property "Reference" "D4" (at 81.28 158.75 90)
+    (property "Reference" "D2" (at 81.28 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 81.28 156.21 90)
@@ -2567,7 +2567,7 @@
     (instances
       (project "Arduino Shield"
         (path "/d32bdb2e-fa3a-461a-9e34-c0053c91b5d5"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
