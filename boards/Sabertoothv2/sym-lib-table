@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2104")(type "KiCad")(uri "${KIPRJMOD}/LM2104.kicad_sym")(options "")(descr ""))
+  (lib (name "SI7232DN-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/SI7232DN-T1-GE3.kicad_sym")(options "")(descr ""))
+)
