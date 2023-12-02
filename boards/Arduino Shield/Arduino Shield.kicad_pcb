@@ -5802,7 +5802,7 @@
       (stroke (width 0.15) (type solid)) (layer "B.CrtYd") (tstamp ed153f5f-ea5d-4dfc-b625-5c9b1f654c29))
     (fp_arc (start 98.552 0.254) (mid 96.52 0.914237) (end 94.488 0.254)
       (stroke (width 0.15) (type solid)) (layer "B.CrtYd") (tstamp 703e4fbb-8ade-471b-ab66-1399302e8aa5))
-    (fp_arc (start 99.8728 -1.7018) (mid 99.650934 -1.077968) (end 99.314 -0.508)
+    (fp_arc (start 99.8728 -1.7018) (mid 99.650928 -1.077973) (end 99.314 -0.508)
       (stroke (width 0.15) (type solid)) (layer "B.CrtYd") (tstamp 037dab17-9885-453e-a87d-eb6d00df3ca4))
     (fp_circle (center 13.97 -2.54) (end 17.42 -2.54)
       (stroke (width 0.15) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 46fd5c4a-bbf6-419d-8732-e4e745834c05))
@@ -6386,7 +6386,7 @@
   (gr_text "Buffet Lee\nEmily Lory\nJoseph Hanger\nHenry Lin\nJashan Virdi" (at 56.642 76.2) (layer "F.SilkS") (tstamp b9b9d176-b178-40f5-a146-cb3094db1c9b)
     (effects (font (size 1 1) (thickness 0.15)) (justify right bottom))
   )
-  (gr_text "IRIS XV\nArduino Shield v4" (at 24.384 71.374) (layer "F.SilkS") (tstamp dc991fa1-a783-4bab-a973-1e09b25e2592)
+  (gr_text "IRIS XV\nArduino Shield Ver.4" (at 24.384 71.374) (layer "F.SilkS") (tstamp dc991fa1-a783-4bab-a973-1e09b25e2592)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
