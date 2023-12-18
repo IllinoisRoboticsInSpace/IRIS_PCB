@@ -1638,7 +1638,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "LOAD1" (shape input) (at 250.19 72.39 0) (fields_autoplaced)
+  (global_label "LOAD2" (shape input) (at 250.19 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a249e2bb-78db-41c2-be69-8d0e097844c4)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 259.1019 72.39 0)
