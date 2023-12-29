@@ -3681,7 +3681,7 @@
   (gr_text "JLCJLCJLCJLC" (at 61.849 65.405) (layer "B.SilkS") (tstamp efd9509c-36fa-4bb3-bfd9-12f28ae9c0c9)
     (effects (font (size 1 1) (thickness 0.25) bold) (justify left bottom mirror))
   )
-  (gr_text "IRIS-XIV\nSAH Ver.2 Rev.A\nBuffet Lee, Emily Lory, Joseph Hanger\nCaroline Chang, Ethan Chang, Jiho Choi,\nNathan Colunga, Henry Lin, Ben Saarva, \nJashan Virdi, Jakub Wojdyla" (at 86.49 63.45) (layer "B.SilkS") (tstamp f637b669-e179-41ec-b408-09ac730a3f7a)
+  (gr_text "IRIS-XIV\nSAH Ver.2 Rev.A\nBuffett Lee, Emily Lory, Joseph Hanger\nCaroline Chang, Ethan Chang, Jiho Choi,\nNathan Colunga, Henry Lin, Ben Saarva, \nJashan Virdi, Jakub Wojdyla" (at 86.49 63.45) (layer "B.SilkS") (tstamp f637b669-e179-41ec-b408-09ac730a3f7a)
     (effects (font (size 1 1) (thickness 0.153)) (justify left bottom mirror))
   )
   (gr_text "OUT" (at 75.946 63.881) (layer "F.SilkS") (tstamp 03ccb83e-ee14-4df0-9f3c-225a689e5a07)
