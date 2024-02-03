@@ -2658,7 +2658,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea7d04c3-0828-42f3-9283-55bad4bbde46)
   )
-  (text "12 Volt Regulators" (at 17.526 147.828 0)
+  (text "5 Volt Regulators" (at 17.526 147.828 0)
     (effects (font (size 5 5)) (justify left bottom))
     (uuid eb79c248-e372-44e3-8fc8-55c084171628)
   )
