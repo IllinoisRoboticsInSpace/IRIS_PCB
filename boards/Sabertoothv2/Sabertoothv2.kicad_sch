@@ -1402,7 +1402,7 @@
     (property "Value" "100nF" (at 157.48 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 160.02 54.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 160.02 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 54.61 0)
@@ -1574,7 +1574,7 @@
     (property "Value" "220p" (at 123.19 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 126.6952 62.23 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 126.6952 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.73 58.42 0)
@@ -1658,7 +1658,7 @@
     (property "Value" "1uF" (at 140.335 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 140.97 78.74 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 140.97 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 78.74 0)
@@ -1684,7 +1684,7 @@
     (property "Value" "220p" (at 39.37 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 42.8752 62.23 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 42.8752 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 58.42 0)
@@ -1774,10 +1774,10 @@
     (property "Datasheet" "~" (at 82.55 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid c98e70ce-8ddd-4a8e-a936-83edf5b07949))
     (pin "2" (uuid 3c2ca0cf-4cd8-4d65-b2c3-55670d157f86))
     (pin "3" (uuid 9ca75baf-5a08-4613-88e6-50d6940e2faa))
     (pin "4" (uuid b90bbb75-4d5b-4915-a620-17b2f69b45c2))
-    (pin "1" (uuid c98e70ce-8ddd-4a8e-a936-83edf5b07949))
     (instances
       (project "Sabertoothv2"
         (path "/7e299f1a-4933-407b-bbf3-47f428dd7acc"
@@ -1894,7 +1894,7 @@
     (property "Value" "1uF" (at 56.515 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 57.15 78.74 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 57.15 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 57.15 78.74 0)
@@ -1952,7 +1952,7 @@
     (property "Value" "100nF" (at 73.66 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 76.2 54.61 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 76.2 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 54.61 0)
@@ -1984,10 +1984,10 @@
     (property "Datasheet" "~" (at 40.64 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 46073631-e7a2-4ee7-9d6d-a01bd9cea2f7))
-    (pin "3" (uuid 6d3c3a6a-0aeb-4423-8f40-7aad7442a1a4))
-    (pin "2" (uuid 6912b5dd-96ea-4cc3-953f-0cd3ca148984))
     (pin "1" (uuid e955e24c-e9a2-4afd-bd99-baba9c5e3ba7))
+    (pin "2" (uuid 6912b5dd-96ea-4cc3-953f-0cd3ca148984))
+    (pin "3" (uuid 6d3c3a6a-0aeb-4423-8f40-7aad7442a1a4))
+    (pin "4" (uuid 46073631-e7a2-4ee7-9d6d-a01bd9cea2f7))
     (instances
       (project "Sabertoothv2"
         (path "/7e299f1a-4933-407b-bbf3-47f428dd7acc"
@@ -2067,10 +2067,10 @@
     (property "Datasheet" "~" (at 64.77 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 8ef4c895-4791-45ef-892e-047337489b7a))
     (pin "2" (uuid e96c751c-831b-4327-aa9e-6710047d1f34))
     (pin "3" (uuid 377e9c21-09a0-445b-b78b-ce673c5f69c8))
     (pin "4" (uuid c10b3653-afef-464c-b153-17fde4b8af17))
-    (pin "1" (uuid 8ef4c895-4791-45ef-892e-047337489b7a))
     (instances
       (project "Sabertoothv2"
         (path "/7e299f1a-4933-407b-bbf3-47f428dd7acc"
