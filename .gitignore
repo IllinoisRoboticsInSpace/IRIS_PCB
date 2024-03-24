@@ -1,0 +1,14 @@
+# Ignore all
+* 
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+*.kicad_prl
