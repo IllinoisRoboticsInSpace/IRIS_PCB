@@ -2443,7 +2443,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5MΩ"
+		(property "Value" "1MΩ"
 			(at 189.738 73.152 0)
 			(effects
 				(font
@@ -2833,7 +2833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5MΩ"
+		(property "Value" "1MΩ"
 			(at 248.412 73.152 0)
 			(effects
 				(font
@@ -2908,7 +2908,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5MΩ"
+		(property "Value" "1MΩ"
 			(at 248.412 48.26 0)
 			(effects
 				(font
@@ -4408,7 +4408,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5MΩ"
+		(property "Value" "1MΩ"
 			(at 189.738 48.26 0)
 			(effects
 				(font
