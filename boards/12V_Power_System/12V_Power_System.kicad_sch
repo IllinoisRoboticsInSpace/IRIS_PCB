@@ -526,7 +526,7 @@
 				)
 			)
 			(property "Value" "irhapsody_relay_12vdc_8060a"
-				(at 0.508 -7.112 0)
+				(at 1.27 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -593,7 +593,7 @@
 				(pin input line
 					(at 0 7.62 270)
 					(length 2.54)
-					(name "37a"
+					(name "87a"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -611,7 +611,7 @@
 				(pin input line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "85"
+					(name "87"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -629,7 +629,7 @@
 				(pin input line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "87"
+					(name "85"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,16 +699,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 95.25 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "381abd34-7e7c-4433-9d42-67a0f9e20342")
-	)
-	(wire
-		(pts
 			(xy 119.38 57.15) (xy 116.84 57.15)
 		)
 		(stroke
@@ -736,6 +726,16 @@
 			(type default)
 		)
 		(uuid "56945801-d764-4559-8fe6-426676f37be1")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a6f48e-0c7e-48f1-b613-afccbf0b3c98")
 	)
 	(wire
 		(pts
@@ -769,16 +769,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 57.15) (xy 95.25 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e065ac3-e227-4ca3-bc90-df1126803784")
-	)
-	(wire
-		(pts
 			(xy 63.5 57.15) (xy 74.93 57.15)
 		)
 		(stroke
@@ -786,6 +776,16 @@
 			(type default)
 		)
 		(uuid "b566c8ce-23bc-46d2-a56f-41015cbda05e")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 95.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded7fb61-bc79-4df6-8af5-4e3e954f4928")
 	)
 	(wire
 		(pts
@@ -860,7 +860,7 @@
 	)
 	(global_label "B-"
 		(shape input)
-		(at 95.25 57.15 0)
+		(at 95.25 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -870,7 +870,7 @@
 		)
 		(uuid "60586aa5-fc30-4ec5-b8d2-010505a5e108")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.0776 57.15 0)
+			(at 101.0776 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +904,7 @@
 	)
 	(global_label "MC+"
 		(shape input)
-		(at 95.25 62.23 0)
+		(at 95.25 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -914,7 +914,7 @@
 		)
 		(uuid "adec7e3d-3d5f-4f1b-bb69-5a4fd016b032")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.529 62.23 0)
+			(at 102.529 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,8 +1008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "E-STOP"
-			(at 68.834 64.008 0)
+		(property "Value" "E-STOP NC"
+			(at 70.612 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
