@@ -10,21 +10,22 @@
 		(rev "3.0")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "1986660-2:1986660-2"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "J2"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
+			(property "Value" "1986660-2"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -32,7 +33,17 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "1986660_2a:TE_1986660-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -41,46 +52,90 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "COMMENT" "1986660-2"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "MF" "TE Connectivity"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "PACKAGE" "None"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1986660-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1986660-2_0_0"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -5.08 -2.54)
+					(end 5.08 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -89,108 +144,38 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "1_1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "2_1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -859,6 +844,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 166.37) (xy 115.57 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcd1eae-2fdc-4107-bb7f-7ac3c2cdeca7")
+	)
+	(wire
+		(pts
+			(xy 41.91 31.75) (xy 45.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b57ece-74d5-4ff6-811b-cd15f96559ed")
+	)
+	(wire
+		(pts
 			(xy 124.46 118.11) (xy 127 118.11)
 		)
 		(stroke
@@ -866,6 +871,16 @@
 			(type default)
 		)
 		(uuid "24602911-cfc9-43a6-a530-d935676ec132")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccc53f7-98d6-437f-9ac7-ff961c4e5272")
 	)
 	(wire
 		(pts
@@ -879,13 +894,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 114.3 86.36)
+			(xy 116.84 139.7) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2feec151-4f3a-4622-aa96-26f529a38f4b")
+		(uuid "2f0f6fdc-fdd0-44e1-8f96-ad689b179445")
+	)
+	(wire
+		(pts
+			(xy 124.46 142.24) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc4b3cb-2585-4a1d-acee-23604c08be10")
 	)
 	(wire
 		(pts
@@ -909,36 +934,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 57.15) (xy 116.84 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a430a9-852b-4904-bfbc-debfc5ee5f08")
-	)
-	(wire
-		(pts
-			(xy 119.38 118.11) (xy 116.84 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "393c95a6-f6c0-49a5-8cae-01944db98838")
-	)
-	(wire
-		(pts
-			(xy 121.92 146.05) (xy 124.46 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e0e0f80-c5b3-47d9-9553-ab0caf015136")
-	)
-	(wire
-		(pts
 			(xy 73.66 182.88) (xy 57.15 182.88)
 		)
 		(stroke
@@ -959,13 +954,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 146.05) (xy 116.84 146.05)
+			(xy 133.35 109.22) (xy 116.84 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4707846b-8f06-4728-996a-d2c27b2575a6")
+		(uuid "49bc91e7-976c-4031-a461-c7b9a18a7135")
+	)
+	(wire
+		(pts
+			(xy 133.35 168.91) (xy 123.19 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af7a67e-7b05-49bd-b71e-f39f01f73dea")
 	)
 	(wire
 		(pts
@@ -976,6 +981,16 @@
 			(type default)
 		)
 		(uuid "4d69f925-40f8-49f2-89fa-5866d823cff9")
+	)
+	(wire
+		(pts
+			(xy 133.35 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545ab013-41dc-42e5-a12f-859785190664")
 	)
 	(wire
 		(pts
@@ -1039,16 +1054,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 177.8) (xy 123.19 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632d9521-2b82-4010-b0f1-f45137207ce8")
-	)
-	(wire
-		(pts
 			(xy 34.29 146.05) (xy 34.29 118.11)
 		)
 		(stroke
@@ -1056,6 +1061,16 @@
 			(type default)
 		)
 		(uuid "6d25f968-d1b6-40b8-9fa0-4060a6d56c46")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 116.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7008638f-0eda-40b0-9767-722b5d906bde")
 	)
 	(wire
 		(pts
@@ -1086,16 +1101,6 @@
 			(type default)
 		)
 		(uuid "75f81078-6b01-4880-bcb2-0184049e8031")
-	)
-	(wire
-		(pts
-			(xy 118.11 177.8) (xy 115.57 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777984f7-1f9e-410a-bc35-1f77c9a10f97")
 	)
 	(wire
 		(pts
@@ -1169,13 +1174,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 121.92 86.36)
+			(xy 133.35 111.76) (xy 124.46 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9881ea30-f9d5-420f-917b-d6af1f7bdfcd")
+		(uuid "92378d04-509c-4fe4-80f2-287917976ff9")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969fbddd-baa4-42f8-80a6-1015c60871e3")
 	)
 	(wire
 		(pts
@@ -1209,6 +1224,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 46.99) (xy 116.84 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29a0ead-9b9f-4bb0-8718-cf3ffcb81472")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ee83ae-f173-43e7-a11d-c9c14b89b3f6")
+	)
+	(wire
+		(pts
+			(xy 133.35 142.24) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a406be6a-61d6-4d6d-9ab4-77b7289e00cf")
+	)
+	(wire
+		(pts
 			(xy 113.03 177.8) (xy 115.57 177.8)
 		)
 		(stroke
@@ -1226,6 +1271,16 @@
 			(type default)
 		)
 		(uuid "a4b201a7-3af4-47bd-a26f-58ba7e213045")
+	)
+	(wire
+		(pts
+			(xy 115.57 166.37) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53879c8-363d-43d2-936f-6348c23f78de")
 	)
 	(wire
 		(pts
@@ -1256,6 +1311,16 @@
 			(type default)
 		)
 		(uuid "aae3283b-39ff-43aa-8888-1c393ebd853a")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01fbe56-7002-419d-a563-45b6b70d44dd")
 	)
 	(wire
 		(pts
@@ -1299,13 +1364,43 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 118.11) (xy 124.46 118.11)
+			(xy 116.84 46.99) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c304f216-74f7-452c-885e-afe3158c6395")
+		(uuid "bb1596d7-fb29-47d3-9bab-2e1cbbc4f886")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0e60fc-adab-40b3-9053-08e1b99c3214")
+	)
+	(wire
+		(pts
+			(xy 41.91 34.29) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedc0dd0-5618-4241-b9d3-627a521726b6")
+	)
+	(wire
+		(pts
+			(xy 123.19 168.91) (xy 123.19 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c398985e-f7ff-4d99-822c-4c7418d65c63")
 	)
 	(wire
 		(pts
@@ -1336,6 +1431,16 @@
 			(type default)
 		)
 		(uuid "d0ab0665-7da5-4b54-81bd-8ffd8ceb5019")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d263983b-0779-44b8-9fe5-8a326045011c")
 	)
 	(wire
 		(pts
@@ -1419,13 +1524,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 124.46 57.15)
+			(xy 124.46 49.53) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d498ce-8c5c-4fef-8387-0ff69c763f47")
+		(uuid "f4e93753-63fc-4cb7-adfd-337e3c61b2b6")
 	)
 	(wire
 		(pts
@@ -1479,7 +1584,7 @@
 	)
 	(text_box "Map:\n\nB+	= Battery Voltage In\nB-	= Battery Voltage Out (a.k.a GND)\nMC+	= Motor Controller Volage In"
 		(exclude_from_sim no)
-		(at 62.23 21.59 0)
+		(at 81.28 15.24 0)
 		(size 40.64 12.7)
 		(stroke
 			(width 0)
@@ -1850,7 +1955,7 @@
 	)
 	(global_label "B-"
 		(shape input)
-		(at 46.99 48.26 270)
+		(at 41.91 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +1965,7 @@
 		)
 		(uuid "d4a77581-88da-421f-b0d3-15f424b7aa1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 54.0876 90)
+			(at 36.0824 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1999,7 @@
 	)
 	(global_label "B+"
 		(shape input)
-		(at 44.45 48.26 270)
+		(at 41.91 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1904,7 +2009,7 @@
 		)
 		(uuid "e8b42c05-cc66-4b67-8d56-32be7604a2d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 54.0876 90)
+			(at 36.0824 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,75 +2104,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 119.38 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04a30fc6-4c18-4a90-a3f3-10c15798776f")
-		(property "Reference" "J6"
-			(at 119.38 110.236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor_Controller_1_Term_01x02"
-			(at 107.188 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a199cf0d-af8b-4f64-8944-26c78f097bd9")
-		)
-		(pin "1"
-			(uuid "521cdf68-11e6-43c7-a92a-ee433c81d827")
-		)
-		(instances
-			(project "12V_Power_System"
-				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
-					(reference "J6")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2360,34 +2396,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 119.38 140.97 90)
+		(lib_id "1986660-2:1986660-2")
+		(at 55.88 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5631a608-1fa9-41ac-bc16-793181b5385c")
-		(property "Reference" "J8"
-			(at 119.38 138.176 90)
+		(fields_autoplaced yes)
+		(uuid "57d5054d-f041-4f6b-9bf2-4b0f87e29ade")
+		(property "Reference" "J1"
+			(at 62.23 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Motor_Controller_4_Term_01x02"
-			(at 107.188 135.89 90)
+		(property "Value" "1986660-2"
+			(at 62.23 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 119.38 140.97 0)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,101 +2442,94 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 119.38 140.97 0)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 140.97 0)
+		(property "COMMENT" "1986660-2"
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1a5312a7-37ce-47f5-ba52-a81857dec0be")
+		(property "MF" "TE Connectivity"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "d13da146-934d-487d-a1a1-5132295f0dfa")
+		(property "PACKAGE" "None"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "2e7853f7-3a10-4614-ad65-5fa64c4636bf")
+		)
+		(pin "1_1"
+			(uuid "41c9ad06-6940-4b1b-8647-996e3316dc03")
 		)
 		(instances
 			(project "12V_Power_System"
-				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 44.45 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6db958ed-c2ea-45b5-a0e3-7e0df6362c0c")
-		(property "Reference" "J1"
-			(at 44.704 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 35.56 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2748808b-7131-4612-a64d-13b0349034f6")
-		)
-		(pin "1"
-			(uuid "43777d36-7ba5-4968-bf4d-faa297c299b1")
-		)
-		(instances
-			(project ""
 				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
 					(reference "J1")
 					(unit 1)
@@ -2568,75 +2608,6 @@
 			(project ""
 				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 119.38 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "885d8965-46b9-4aec-b6d1-25ff9a9153fc")
-		(property "Reference" "J2"
-			(at 119.38 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor_Controller_1_Term_01x02"
-			(at 107.188 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "070ebdee-dec0-41e5-adfa-2c4b6d4c1e7e")
-		)
-		(pin "1"
-			(uuid "f9e02dc9-5cc3-43f2-b538-38ba4ba6b76d")
-		)
-		(instances
-			(project ""
-				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2926,34 +2897,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 116.84 81.28 90)
+		(lib_id "1986660-2:1986660-2")
+		(at 137.16 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4675b09-6921-4b76-8eb4-b1e979caa978")
-		(property "Reference" "J4"
-			(at 116.84 78.486 90)
+		(fields_autoplaced yes)
+		(uuid "9ae37038-8a9e-4ad0-b4ce-afe03158e703")
+		(property "Reference" "J3"
+			(at 143.51 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Motor_Controller_2_Term_01x02"
-			(at 104.648 76.2 90)
+		(property "Value" "1986660-2"
+			(at 143.51 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 116.84 81.28 0)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,8 +2943,141 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 116.84 81.28 0)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "db740fe9-ce92-41e1-8f5d-89febd5c821a")
+		)
+		(pin "1_1"
+			(uuid "a21d9f50-f614-4e8d-bee7-a1edab65dfd0")
+		)
+		(instances
+			(project ""
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 143.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c758f7-e29f-4093-b49e-6affc5fd7990")
+		(property "Reference" "J5"
+			(at 149.86 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 149.86 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,25 +3085,238 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 116.84 81.28 0)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 143.51 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "97b4e98c-e708-4d38-9e00-80c7c9eecf46")
+		(property "COMMENT" "1986660-2"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "238c9fee-a318-494f-856f-ed3933ff72fb")
+		(property "MF" "TE Connectivity"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "52c94a9f-8705-4468-bf41-2fa25cf5c709")
+		)
+		(pin "1_1"
+			(uuid "0915d3f9-9247-4805-a2fc-d107f1ab4016")
 		)
 		(instances
 			(project "12V_Power_System"
 				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
-					(reference "J4")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 135.89 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa4ae7c4-21c3-426b-b0f8-8cf92d854b84")
+		(property "Reference" "J2"
+			(at 142.24 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 142.24 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "56cb27ad-8a4b-47e5-b415-f1374f7af809")
+		)
+		(pin "1_1"
+			(uuid "3cf3891f-eace-4164-a24a-c39037ffa622")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3071,75 +3399,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 118.11 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de9a8190-3577-43a1-9519-57adfd4c0581")
-		(property "Reference" "J10"
-			(at 118.11 169.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Motor_Controller_5_Term_01x02"
-			(at 105.918 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 118.11 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40e4990f-fcff-40f3-b3e1-3bd4e3fd7e7b")
-		)
-		(pin "1"
-			(uuid "8fb8b1a8-b421-4c89-8cf3-e2d1b72e050d")
-		)
-		(instances
-			(project "12V_Power_System"
-				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
 		(at 81.28 180.34 0)
 		(unit 1)
@@ -3210,6 +3469,290 @@
 			(project "12V_Power_System"
 				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 143.51 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87b1480-9ae8-42ff-be8f-7c227b3280d2")
+		(property "Reference" "J6"
+			(at 149.86 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 149.86 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "7915519f-6a29-43b0-a2f8-984ef165f1fe")
+		)
+		(pin "1_1"
+			(uuid "27eb6ea6-beab-4235-9069-1e9f04f6a1b9")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 143.51 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa39e137-f660-422a-b739-51fcacb8915f")
+		(property "Reference" "J4"
+			(at 149.86 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 149.86 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "d16787a9-7289-43fc-a1ab-8df24058049f")
+		)
+		(pin "1_1"
+			(uuid "58bdd204-e9dd-4560-ab18-fd9f520fd1bd")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J4")
 					(unit 1)
 				)
 			)
