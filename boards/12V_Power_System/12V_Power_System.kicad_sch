@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "b626a757-2d61-4d80-a0da-6a1235868e50")
-	(paper "User" 190.5 127)
+	(paper "A4")
 	(title_block
 		(title "12V Power System")
 		(date "2024-10-15")
@@ -666,10 +666,52 @@
 		)
 	)
 	(junction
+		(at 124.46 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "112c294e-ef7f-4e64-a460-3075ba48519f")
+	)
+	(junction
+		(at 63.5 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15afff28-3b67-46cf-8ac7-79d739b13c14")
+	)
+	(junction
+		(at 115.57 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "222b1114-7489-4374-9f91-50d6b1b6c5b1")
+	)
+	(junction
+		(at 62.23 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229c6a8b-1abd-471e-8f1c-4562f6e62184")
+	)
+	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248ec48a-24d0-427c-8a4a-adb1335ef30f")
+	)
+	(junction
 		(at 63.5 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "296bd8ea-586c-472f-93ef-3175832bee54")
+	)
+	(junction
+		(at 116.84 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348771c3-7603-4aa1-a8f9-55f22abf7891")
+	)
+	(junction
+		(at 124.46 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36078916-7562-49a2-8d87-4624625328bf")
 	)
 	(junction
 		(at 116.84 57.15)
@@ -683,9 +725,65 @@
 		(color 0 0 0 0)
 		(uuid "484c7ea2-5648-4976-9e64-e72a6f461985")
 	)
+	(junction
+		(at 60.96 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60dd488a-894d-4790-acf9-41dfbc29441f")
+	)
+	(junction
+		(at 116.84 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63af5d97-b0a4-41a1-b549-9b32a39c1ad7")
+	)
+	(junction
+		(at 114.3 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8406631d-e8a2-4734-b78b-8209e9b0aeaf")
+	)
+	(junction
+		(at 123.19 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927cfcbc-8a72-4587-9da2-cf751fa37835")
+	)
+	(junction
+		(at 63.5 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c847bde9-c022-415e-b99f-e1a7de4b1365")
+	)
 	(no_connect
 		(at 82.55 50.8)
 		(uuid "0a079737-305e-448c-83df-e085b1aee839")
+	)
+	(no_connect
+		(at 82.55 139.7)
+		(uuid "40a4cee0-58bb-4e59-8aab-a47f1c4f3675")
+	)
+	(no_connect
+		(at 81.28 171.45)
+		(uuid "61cad883-54ee-4df2-a9b7-156cf397d3c5")
+	)
+	(no_connect
+		(at 80.01 80.01)
+		(uuid "b0202e1c-21f6-4c4e-b2e9-94dab2e831ce")
+	)
+	(no_connect
+		(at 82.55 111.76)
+		(uuid "e5ada810-4760-41e0-900e-2dc4cbe98894")
+	)
+	(wire
+		(pts
+			(xy 123.19 177.8) (xy 123.19 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090bd4f3-95a9-4976-9809-627f09912ae2")
 	)
 	(wire
 		(pts
@@ -699,6 +797,116 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 177.8) (xy 93.98 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10216434-1eda-4a0e-a3e9-b241cab89b5e")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1384da22-964a-42a8-a498-6f94d8d4aa66")
+	)
+	(wire
+		(pts
+			(xy 81.28 172.72) (xy 81.28 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b15fe2-91d0-4c19-bf64-06ae463d9630")
+	)
+	(wire
+		(pts
+			(xy 63.5 124.46) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2a896a-2211-4a4f-9d77-9ad52e5dc91c")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5a2b6f-ae5d-4a50-b131-37c85c4b888f")
+	)
+	(wire
+		(pts
+			(xy 63.5 146.05) (xy 74.93 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea8df74-d9e3-4eba-89f5-9764ee6f7383")
+	)
+	(wire
+		(pts
+			(xy 72.39 91.44) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fce2927-54a8-4a81-8965-6646ec3f5e8d")
+	)
+	(wire
+		(pts
+			(xy 124.46 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24602911-cfc9-43a6-a530-d935676ec132")
+	)
+	(wire
+		(pts
+			(xy 63.5 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2992b14e-198a-4864-b604-e44c21ce8001")
+	)
+	(wire
+		(pts
+			(xy 90.17 123.19) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd931a5-0741-40eb-b1e0-38304f629765")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2feec151-4f3a-4622-aa96-26f529a38f4b")
+	)
+	(wire
+		(pts
 			(xy 119.38 57.15) (xy 116.84 57.15)
 		)
 		(stroke
@@ -706,6 +914,66 @@
 			(type default)
 		)
 		(uuid "38a430a9-852b-4904-bfbc-debfc5ee5f08")
+	)
+	(wire
+		(pts
+			(xy 119.38 118.11) (xy 116.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393c95a6-f6c0-49a5-8cae-01944db98838")
+	)
+	(wire
+		(pts
+			(xy 121.92 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0e0f80-c5b3-47d9-9553-ab0caf015136")
+	)
+	(wire
+		(pts
+			(xy 119.38 146.05) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4707846b-8f06-4728-996a-d2c27b2575a6")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac9b811-1369-4024-b9a7-69d17dd8874d")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d69f925-40f8-49f2-89fa-5866d823cff9")
+	)
+	(wire
+		(pts
+			(xy 62.23 177.8) (xy 73.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5c106c-4c7f-4ece-9c48-184a338fa93c")
 	)
 	(wire
 		(pts
@@ -729,6 +997,56 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe5bb28-b96e-4986-9685-c69d6b8c5a03")
+	)
+	(wire
+		(pts
+			(xy 114.3 146.05) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6071a848-15a6-44f6-993a-3dfa37b6210a")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.11) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6164529c-032b-42be-86bd-337beb93ce56")
+	)
+	(wire
+		(pts
+			(xy 120.65 177.8) (xy 123.19 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632d9521-2b82-4010-b0f1-f45137207ce8")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.71) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d08ff90-9767-432c-b019-9ab63369781f")
+	)
+	(wire
+		(pts
 			(xy 90.17 57.15) (xy 95.25 57.15)
 		)
 		(stroke
@@ -736,6 +1054,56 @@
 			(type default)
 		)
 		(uuid "72a6f48e-0c7e-48f1-b613-afccbf0b3c98")
+	)
+	(wire
+		(pts
+			(xy 63.5 118.11) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73973a28-df0e-4cb3-81d8-fd3a4256ac88")
+	)
+	(wire
+		(pts
+			(xy 118.11 177.8) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777984f7-1f9e-410a-bc35-1f77c9a10f97")
+	)
+	(wire
+		(pts
+			(xy 74.93 151.13) (xy 73.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af92906-a296-4cb8-b64d-6002ccb87991")
+	)
+	(wire
+		(pts
+			(xy 115.57 177.8) (xy 115.57 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b8ca7d-8d74-42f4-9d7f-0f4a2f96fc42")
+	)
+	(wire
+		(pts
+			(xy 63.5 146.05) (xy 63.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d29b30-4de6-4958-b8a2-8cb80f89d80d")
 	)
 	(wire
 		(pts
@@ -769,6 +1137,136 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9881ea30-f9d5-420f-917b-d6af1f7bdfcd")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 124.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dae272-b726-49d4-bffc-f3f9b24f252d")
+	)
+	(wire
+		(pts
+			(xy 73.66 182.88) (xy 72.39 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996353f5-0158-4c28-83a0-da6a7cc98014")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c412731-4d37-4354-8478-af548e99df6f")
+	)
+	(wire
+		(pts
+			(xy 90.17 146.05) (xy 95.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1950a91-2811-4fbb-832b-4aacc19c00aa")
+	)
+	(wire
+		(pts
+			(xy 113.03 177.8) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a407413b-08cf-4218-8a9d-5d5f2eae393c")
+	)
+	(wire
+		(pts
+			(xy 90.17 118.11) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b201a7-3af4-47bd-a26f-58ba7e213045")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 116.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ab5609-3f7b-4369-b640-71725d42afaf")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae3283b-39ff-43aa-8888-1c393ebd853a")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b026ff5c-94ef-46ae-b701-599af455c40a")
+	)
+	(wire
+		(pts
+			(xy 82.55 140.97) (xy 82.55 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04e2acf-e59a-4b36-99f2-3d884625ca97")
+	)
+	(wire
+		(pts
+			(xy 123.19 177.8) (xy 125.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e04d36-10aa-44a7-8610-17ddbc1772e3")
+	)
+	(wire
+		(pts
+			(xy 116.84 146.05) (xy 116.84 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c1d8b7-b3cc-4b2a-b28a-d3c4b21abc51")
+	)
+	(wire
+		(pts
 			(xy 63.5 57.15) (xy 74.93 57.15)
 		)
 		(stroke
@@ -779,6 +1277,56 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 118.11) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c304f216-74f7-452c-885e-afe3158c6395")
+	)
+	(wire
+		(pts
+			(xy 82.55 113.03) (xy 82.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3db5ccd-e68f-43d9-b7ef-4713c46fdc1c")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 60.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82c5e00-db10-46a5-918a-51289f8a54b5")
+	)
+	(wire
+		(pts
+			(xy 62.23 184.15) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97d0389-e5ef-4ca0-8a84-3e60ecf06453")
+	)
+	(wire
+		(pts
+			(xy 90.17 151.13) (xy 95.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0872f7-acbd-4f13-b65f-79a03d71fdc4")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 95.25 62.23)
 		)
 		(stroke
@@ -786,6 +1334,36 @@
 			(type default)
 		)
 		(uuid "ded7fb61-bc79-4df6-8af5-4e3e954f4928")
+	)
+	(wire
+		(pts
+			(xy 88.9 182.88) (xy 93.98 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36e2177-5d2d-4c13-9b5b-9b95cd283751")
+	)
+	(wire
+		(pts
+			(xy 62.23 177.8) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee742b5b-3eef-4250-ae17-c1c399fad72d")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a44358-000b-44fa-a24b-7806449f5346")
 	)
 	(wire
 		(pts
@@ -809,6 +1387,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 81.28) (xy 80.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee68f9c-e752-47eb-89a6-34bbcf61adee")
+	)
+	(wire
+		(pts
 			(xy 116.84 57.15) (xy 116.84 62.23)
 		)
 		(stroke
@@ -816,6 +1404,26 @@
 			(type default)
 		)
 		(uuid "ff1433ba-3f78-4eec-b351-88d3c8211861")
+	)
+	(wire
+		(pts
+			(xy 74.93 123.19) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7bc0c7-68ef-4b24-beeb-8f32ec45e277")
+	)
+	(wire
+		(pts
+			(xy 124.46 118.11) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb80bb4-89ae-42e3-a807-4b3d0b8e7977")
 	)
 	(text_box "Map:\n\nB+	= Battery Voltage In\nB-	= Battery Voltage Out (a.k.a GND)\nMC+	= Motor Controller Volage In"
 		(exclude_from_sim no)
@@ -836,6 +1444,50 @@
 		)
 		(uuid "b96a43a7-95af-46bb-9721-130225f7c290")
 	)
+	(global_label "B-"
+		(shape input)
+		(at 92.71 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a7a0502-57c0-4042-8f61-e56e4c63f88c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.5376 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 63.5 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1aac0dc1-d2eb-4eae-92b8-b7ee7e80fe6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 130.2876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B+"
 		(shape input)
 		(at 63.5 63.5 270)
@@ -849,6 +1501,116 @@
 		(uuid "1fb56785-79b5-46a5-b33e-30e6d676e41e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.5 69.3276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 62.23 184.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cd3ed80-7bc4-4506-a7b9-cf1d2037d050")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 189.9776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 93.98 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34041c7b-6413-462c-b6db-52ce545eba9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.8076 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 60.96 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d7bd4ec-3a52-454f-9866-b4686be14b57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 98.5376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 125.73 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ab3a2ba-3cae-4c74-9387-c2ef4c19774c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.5576 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_2+"
+		(shape input)
+		(at 111.76 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5efebd3a-00e9-458f-a53f-8e6bc887cc0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3039 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +1642,7 @@
 			)
 		)
 	)
-	(global_label "MC+"
+	(global_label "MC_1+"
 		(shape input)
 		(at 114.3 57.15 180)
 		(fields_autoplaced yes)
@@ -892,7 +1654,7 @@
 		)
 		(uuid "6e8fe2c2-f32e-4661-8966-a4bd8808583e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.021 57.15 0)
+			(at 104.8439 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +1664,161 @@
 			)
 		)
 	)
-	(global_label "MC+"
+	(global_label "MC_4+"
+		(shape input)
+		(at 114.3 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7660c0a5-e0ff-4599-95c4-b9297f9611c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.8439 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_4+"
+		(shape input)
+		(at 95.25 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82b43aad-b4c1-4725-a49d-42108bee9a78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.7061 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 95.25 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a2a1b86-88ff-4217-8a96-7d4566918f4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0776 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 95.25 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e8b3ba3-6720-4c7f-8fac-95a488b1bccd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0776 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_5+"
+		(shape input)
+		(at 93.98 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f76d8fc-89a5-4720-a162-8641c1a3c9ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.4361 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_5+"
+		(shape input)
+		(at 113.03 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90962002-f9b6-4c63-bae7-bad5e78e2670")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.5739 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 127 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1cebec6-eaa7-4b25-b04e-634864b83115")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8276 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_1+"
 		(shape input)
 		(at 95.25 57.15 0)
 		(fields_autoplaced yes)
@@ -914,12 +1830,34 @@
 		)
 		(uuid "adec7e3d-3d5f-4f1b-bb69-5a4fd016b032")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.529 57.15 0)
+			(at 104.7061 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_3+"
+		(shape input)
+		(at 114.3 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce580394-4463-4ffc-91a9-d785121dac9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.8439 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -942,6 +1880,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_3+"
+		(shape input)
+		(at 95.25 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de7ffe8c-2e5e-4101-9f9f-418e8ab3da5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.7061 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -970,6 +1930,72 @@
 	)
 	(global_label "B-"
 		(shape input)
+		(at 124.46 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea7f2796-0053-45de-be13-e48c9129c5f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.2876 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MC_2+"
+		(shape input)
+		(at 92.71 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb1fd4b0-c841-4306-9d71-1f5fb809e1ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1661 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 127 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc024662-7ffb-4750-a64d-22187e29c30c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8276 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
 		(at 127 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -987,6 +2013,311 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 63.5 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe422356-f99c-44de-98f9-d4e981db333b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 158.2276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 119.38 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04a30fc6-4c18-4a90-a3f3-10c15798776f")
+		(property "Reference" "J6"
+			(at 119.38 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor_Controller_1_Term_01x02"
+			(at 107.188 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a199cf0d-af8b-4f64-8944-26c78f097bd9")
+		)
+		(pin "1"
+			(uuid "521cdf68-11e6-43c7-a92a-ee433c81d827")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 120.65 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "071d1f5b-b493-4ff4-985c-f4ac875befc7")
+		(property "Reference" "ZENER_DIODE4"
+			(at 113.792 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 118.364 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2111b9f5-5a01-48a8-952f-1b02e89d82e9")
+		)
+		(pin "2"
+			(uuid "ead4699c-256c-4bc3-aaf8-92c776969fc1")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 82.55 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ec234e8-26fd-48eb-8985-cca4752f4798")
+		(property "Reference" "U3"
+			(at 82.55 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_3"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9f59d4a-278e-401b-a6c1-84eccab047df")
+		)
+		(pin "5"
+			(uuid "2097cb57-5bcd-41df-92c9-29565c2dedf8")
+		)
+		(pin "4"
+			(uuid "d5f86d87-cf12-4023-8f8d-af2d2bb0f6c8")
+		)
+		(pin "3"
+			(uuid "95ab1e64-8f28-4b68-8680-66d2ac50a25a")
+		)
+		(pin "1"
+			(uuid "5c2a9d03-4bde-4c7d-b7a3-852263e43e3a")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 120.65 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24eede98-369b-471d-96aa-c685c0587868")
+		(property "Reference" "ZENER_DIODE3"
+			(at 113.792 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 118.364 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d89731ef-e1e4-4e0b-934f-e329b1959820")
+		)
+		(pin "2"
+			(uuid "25d1068c-ac3d-4171-9e9f-5e52a132af40")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1059,6 +2390,297 @@
 			(project ""
 				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
 					(reference "E-STOP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 66.04 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3279e28e-e7b4-4b1f-ab63-9301ab913361")
+		(property "Reference" "E-STOP2"
+			(at 66.04 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "E-STOP NC"
+			(at 68.072 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4deed9d-a4ff-425b-a54e-0c5cf95bdede")
+		)
+		(pin "2"
+			(uuid "aebd7d66-eca1-4d02-b4cd-97c4a727e729")
+		)
+		(pin "3"
+			(uuid "8c9cd256-6479-4d06-97fe-a3dff048772a")
+		)
+		(pin "4"
+			(uuid "83fa089a-dd7a-45d3-b8a6-50cc0bd15cfe")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "E-STOP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 68.58 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38d995b7-754d-4b2f-8e8d-bd8e4e033ab5")
+		(property "Reference" "E-STOP4"
+			(at 68.58 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "E-STOP NC"
+			(at 70.612 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 68.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9104d34-a83c-4ad9-bd6f-7efa9aa03218")
+		)
+		(pin "2"
+			(uuid "c7781735-c92f-4e3f-93e9-9c8a07991ea9")
+		)
+		(pin "3"
+			(uuid "8c9cd256-6479-4d06-97fe-a3dff048772a")
+		)
+		(pin "4"
+			(uuid "83fa089a-dd7a-45d3-b8a6-50cc0bd15cfe")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "E-STOP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 67.31 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cd0bca-8296-4ae9-a343-e8d8d9439f43")
+		(property "Reference" "E-STOP5"
+			(at 67.31 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "E-STOP NC"
+			(at 69.342 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:E-Stop"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa25e25-cc7c-45cb-9b32-b96c619b38f7")
+		)
+		(pin "2"
+			(uuid "11b83a37-d602-4e56-ae8c-4c11b4a96078")
+		)
+		(pin "3"
+			(uuid "8c9cd256-6479-4d06-97fe-a3dff048772a")
+		)
+		(pin "4"
+			(uuid "83fa089a-dd7a-45d3-b8a6-50cc0bd15cfe")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "E-STOP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 119.38 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5631a608-1fa9-41ac-bc16-793181b5385c")
+		(property "Reference" "J8"
+			(at 119.38 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor_Controller_4_Term_01x02"
+			(at 107.188 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a5312a7-37ce-47f5-ba52-a81857dec0be")
+		)
+		(pin "1"
+			(uuid "d13da146-934d-487d-a1a1-5132295f0dfa")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1150,7 +2772,7 @@
 				)
 			)
 		)
-		(property "Value" "irhapsody_relay_12vdc_8060a"
+		(property "Value" "irhapsody_relay_12vdc_8060a_1"
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -1158,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IRIS:IRhapsody Relay 12VDC 8060A"
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -1227,7 +2849,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor_Controller_Term_01x02"
+		(property "Value" "Motor_Controller_1_Term_01x02"
 			(at 107.188 46.99 90)
 			(effects
 				(font
@@ -1342,6 +2964,584 @@
 			(project ""
 				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
 					(reference "ZENER_DIODE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 119.38 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ce1694b-e103-4bf9-98ee-a00c9fc49a3c")
+		(property "Reference" "ZENER_DIODE5"
+			(at 112.522 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 117.094 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 119.38 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 119.38 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c4f848-18a1-4867-8fed-d1917fb2cc06")
+		)
+		(pin "2"
+			(uuid "8a85fa66-eb0a-499c-b1e3-4b4cfabc8464")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 118.11 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96aca4e0-df76-48bc-acbe-fe8956058fdc")
+		(property "Reference" "ZENER_DIODE2"
+			(at 111.252 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 115.824 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39823537-c047-49ed-9a69-070285e42bfa")
+		)
+		(pin "2"
+			(uuid "3075d3ba-c69f-4fb3-8397-3522f48fc3c7")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 80.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "999710b2-81aa-4a28-bb77-b4489e1294c5")
+		(property "Reference" "U2"
+			(at 80.01 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_2"
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4f561fe-7c28-4d59-af50-7a39da705cab")
+		)
+		(pin "5"
+			(uuid "c7e45b31-100f-4068-9d0b-e58460d0c086")
+		)
+		(pin "4"
+			(uuid "586bc52d-27f8-46a9-9daf-76932e6488e0")
+		)
+		(pin "3"
+			(uuid "b21b0658-c28b-4aa3-b689-dd7e7ae32226")
+		)
+		(pin "1"
+			(uuid "af160b49-fde0-4fdf-8ace-b6e673271a09")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 68.58 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b83e79b7-2db1-47bd-8580-ec391c68c1d9")
+		(property "Reference" "E-STOP3"
+			(at 68.58 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "E-STOP NC"
+			(at 70.612 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 68.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e5bed3a-ccee-444b-b506-77b2f5c7a7c9")
+		)
+		(pin "2"
+			(uuid "66f20c19-f388-432e-a4c2-ae4b8d3b99dc")
+		)
+		(pin "3"
+			(uuid "8c9cd256-6479-4d06-97fe-a3dff048772a")
+		)
+		(pin "4"
+			(uuid "83fa089a-dd7a-45d3-b8a6-50cc0bd15cfe")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "E-STOP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 116.84 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4675b09-6921-4b76-8eb4-b1e979caa978")
+		(property "Reference" "J4"
+			(at 116.84 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor_Controller_2_Term_01x02"
+			(at 104.648 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97b4e98c-e708-4d38-9e00-80c7c9eecf46")
+		)
+		(pin "1"
+			(uuid "238c9fee-a318-494f-856f-ed3933ff72fb")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 82.55 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7222823-90d9-49a9-ba4d-56a3e5ee972a")
+		(property "Reference" "U4"
+			(at 82.55 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_4"
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "670dac8e-31b8-44dd-a825-c79a820ae303")
+		)
+		(pin "5"
+			(uuid "ef88fd7c-2024-4199-bd41-7135ad15cc1a")
+		)
+		(pin "4"
+			(uuid "8a6f708f-a72a-4375-9fc9-1e99fbc87c11")
+		)
+		(pin "3"
+			(uuid "11a41de9-73be-4e2b-b107-cfdcc06d1ef0")
+		)
+		(pin "1"
+			(uuid "01e00925-c6e1-43f8-93b8-690db35698e7")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 118.11 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de9a8190-3577-43a1-9519-57adfd4c0581")
+		(property "Reference" "J10"
+			(at 118.11 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Motor_Controller_5_Term_01x02"
+			(at 105.918 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40e4990f-fcff-40f3-b3e1-3bd4e3fd7e7b")
+		)
+		(pin "1"
+			(uuid "8fb8b1a8-b421-4c89-8cf3-e2d1b72e050d")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 81.28 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0123016-69a6-4697-ab2c-63dfd0fd5d66")
+		(property "Reference" "U5"
+			(at 81.28 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_5"
+			(at 82.55 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97dacccf-242e-4eb9-accb-26fc622d096a")
+		)
+		(pin "5"
+			(uuid "48045604-2d4e-44d0-88ac-d86f6feb74d7")
+		)
+		(pin "4"
+			(uuid "b3abc05c-b828-49d2-b454-7243271e20cd")
+		)
+		(pin "3"
+			(uuid "3fd425c2-99b6-4c63-b006-9f6eae5d1164")
+		)
+		(pin "1"
+			(uuid "da910c32-6db4-4a09-96b1-9cc19af2abcd")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U5")
 					(unit 1)
 				)
 			)
