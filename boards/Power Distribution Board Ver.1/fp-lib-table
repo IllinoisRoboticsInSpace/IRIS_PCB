@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name "SIC_431_supporting")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/SIC_431_supporting")(options "")(descr ""))
-  (lib (name "power_board_support")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/power_board_support")(options "")(descr ""))
-  (lib (name "Custom_Silkscreen_and_memes")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/Custom_Silkscreen_and_memes")(options "")(descr ""))
-)

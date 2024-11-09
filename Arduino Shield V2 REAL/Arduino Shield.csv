@@ -1,0 +1,9 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J3,J5,J6,J7,J2";"TerminalBlock_4Ucon_1x08_P3.50mm_Horizontal";5;"Screw_Terminal_01x08";;;
+2;"D3,D1,D5,D4,D2";"LED_0805_2012Metric";5;"LED";;;
+3;"J9";"TerminalBlock_4Ucon_1x10_P3.50mm_Horizontal";1;"Screw_Terminal_01x10";;;
+4;"R4";"R_0805_2012Metric";1;"232Ω";;;
+5;"J8,J1";"TerminalBlock_4Ucon_1x07_P3.50mm_Horizontal";2;"Screw_Terminal_01x07";;;
+6;"R2,R5,R3,R1";"R_0805_2012Metric";4;"6Ω";;;
+7;"J11,J4";"TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal";2;"Screw_Terminal_01x08";;;
+8;"U1";"Arduino_Due_Shield";1;"A000062";;;
