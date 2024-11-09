@@ -1,0 +1,101 @@
+(footprint "E-Stop" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 63ED672D)
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.03 -12.66 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bc48fdac-cb52-4fb0-8dfb-9ce18bafb9ba)
+  )
+  (fp_text value "E-Stop" (at -0.03 -11.16 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c71e904f-c0af-4ec0-b77b-52ed6f1bd9ec)
+  )
+  (fp_line (start -3.618372 2.68) (end -3.22 2.45) (layer "Edge.Cuts") (width 0.06) (tstamp 0079472d-614e-4bdb-a0b5-7bee54f2c5b9))
+  (fp_line (start 3.241628 2.406026) (end 3.64 2.636026) (layer "Edge.Cuts") (width 0.06) (tstamp 0bf471fb-401d-4f89-a4ae-577ff8a6729f))
+  (fp_line (start -6.179512 3.003974) (end -4.118372 1.813974) (layer "Edge.Cuts") (width 0.06) (tstamp 1edb78b7-a8e1-4099-a5e3-11209caa25ac))
+  (fp_line (start 5.70114 3.826026) (end 3.64 2.636026) (layer "Edge.Cuts") (width 0.06) (tstamp 24b29eb6-7cfc-4813-a76f-d2a1340ae061))
+  (fp_line (start 4.14 1.77) (end 3.741628 1.54) (layer "Edge.Cuts") (width 0.06) (tstamp 2eb50824-ca6f-4a2f-bb01-8128d9f0b2f3))
+  (fp_line (start 5.67114 -3.87) (end 3.61 -2.68) (layer "Edge.Cuts") (width 0.06) (tstamp 2fc3408a-a487-4a73-8b05-074eb9ddcb7f))
+  (fp_line (start -3.230814 -2.435) (end -3.629186 -2.665) (layer "Edge.Cuts") (width 0.06) (tstamp 329016f2-3cbc-4b2a-a343-4dffcf17ebc6))
+  (fp_line (start 3.61 -2.68) (end 3.211628 -2.45) (layer "Edge.Cuts") (width 0.06) (tstamp 3e425e3f-14fb-4fd6-bdf2-17f58f37086a))
+  (fp_line (start -0.5 6.85) (end -0.5 4.47) (layer "Edge.Cuts") (width 0.06) (tstamp 4269d5cc-5e3e-4a5c-9d00-7800b3ba4560))
+  (fp_line (start -5.690326 -3.855) (end -6.190326 -2.988974) (layer "Edge.Cuts") (width 0.06) (tstamp 4502cfc7-78ef-4419-9ca8-880ff2436812))
+  (fp_line (start 0.5 4.47) (end 0.5 4.01) (layer "Edge.Cuts") (width 0.06) (tstamp 488d4507-d561-4d0c-b14f-458c9297a51c))
+  (fp_line (start -6.179512 3.003974) (end -5.679512 3.87) (layer "Edge.Cuts") (width 0.06) (tstamp 532692a2-1f07-4b6c-ab28-23b5aab96d1c))
+  (fp_line (start 0.49 -6.85) (end 0.49 -4.47) (layer "Edge.Cuts") (width 0.06) (tstamp 5cabb5d6-9fa3-44d0-8ece-405419c32eab))
+  (fp_line (start -0.51 -4.47) (end -0.51 -4.01) (layer "Edge.Cuts") (width 0.06) (tstamp 62b40ae0-fe65-470b-ba60-12676aea3646))
+  (fp_line (start -0.5 4.01) (end -0.5 4.47) (layer "Edge.Cuts") (width 0.06) (tstamp 742f2a37-f4ee-47a0-a531-306ead6002c2))
+  (fp_line (start 6.17114 -3.003974) (end 5.67114 -3.87) (layer "Edge.Cuts") (width 0.06) (tstamp 76137da8-61a8-4ae0-9902-e9599ba20e8e))
+  (fp_line (start -5.679512 3.87) (end -3.618372 2.68) (layer "Edge.Cuts") (width 0.06) (tstamp 763806d3-84fe-43b2-8c8a-1a97d1f1f1b9))
+  (fp_line (start -3.72 1.583974) (end -4.118372 1.813974) (layer "Edge.Cuts") (width 0.06) (tstamp 8906284b-13a0-4ee0-99af-42c5cb15b520))
+  (fp_line (start -4.129186 -1.798974) (end -3.730814 -1.568974) (layer "Edge.Cuts") (width 0.06) (tstamp 9297436f-1478-4447-972c-d78e9e10742e))
+  (fp_line (start -0.5 6.85) (end 0.5 6.85) (layer "Edge.Cuts") (width 0.06) (tstamp 92e3ef4b-ffee-4c5d-ad25-da869d2866f7))
+  (fp_line (start 0.49 -6.85) (end -0.51 -6.85) (layer "Edge.Cuts") (width 0.06) (tstamp a017200c-b761-4110-aa33-c6b99816101c))
+  (fp_line (start 6.20114 2.96) (end 4.14 1.77) (layer "Edge.Cuts") (width 0.06) (tstamp b3d4e789-1f23-4126-9ff7-010e45b76752))
+  (fp_line (start 6.17114 -3.003974) (end 4.11 -1.813974) (layer "Edge.Cuts") (width 0.06) (tstamp b7ab1bee-4e21-457f-b601-e338a1930f83))
+  (fp_line (start 0.49 -4.01) (end 0.49 -4.47) (layer "Edge.Cuts") (width 0.06) (tstamp c27fdc75-6303-4ad5-a72c-1fd23536c216))
+  (fp_line (start -0.51 -6.85) (end -0.51 -4.47) (layer "Edge.Cuts") (width 0.06) (tstamp cd3de26f-094d-4bfe-b939-fb544a0b59cc))
+  (fp_line (start 3.711628 -1.583974) (end 4.11 -1.813974) (layer "Edge.Cuts") (width 0.06) (tstamp d101abf1-d4ed-44dc-8dd9-609b10478804))
+  (fp_line (start 0.5 6.85) (end 0.5 4.47) (layer "Edge.Cuts") (width 0.06) (tstamp e1110524-9d88-4fa9-afec-1859834e2f21))
+  (fp_line (start -6.190326 -2.988974) (end -4.129186 -1.798974) (layer "Edge.Cuts") (width 0.06) (tstamp e1ffe346-a422-4f5e-bf77-00af34e2e10f))
+  (fp_line (start -5.690326 -3.855) (end -3.629186 -2.665) (layer "Edge.Cuts") (width 0.06) (tstamp f4d63de0-34d3-449f-b877-13701f4483dd))
+  (fp_line (start 5.70114 3.826026) (end 6.20114 2.96) (layer "Edge.Cuts") (width 0.06) (tstamp fdb02c76-1721-43ab-b65b-57f5666b1af7))
+  (fp_arc (start -3.719999 1.583974) (mid -4.04337 0.00901) (end -3.727022 -1.567379) (layer "Edge.Cuts") (width 0.06) (tstamp 1d32aab9-9081-4ccb-8b7b-9f53d949d4c1))
+  (fp_arc (start -0.5 4.009999) (mid -2.015575 3.502291) (end -3.215984 2.446945) (layer "Edge.Cuts") (width 0.06) (tstamp 48aad5b5-6ecc-438b-9efb-46d712dc3a4f))
+  (fp_arc (start 3.241628 2.406026) (mid 2.034406 3.486803) (end 0.499495 4.005948) (layer "Edge.Cuts") (width 0.06) (tstamp 75763523-10d9-49b5-930b-f8cb69734bc2))
+  (fp_arc (start -3.230814 -2.435) (mid -2.030101 -3.499048) (end -0.510424 -4.013334) (layer "Edge.Cuts") (width 0.06) (tstamp 8a962e46-a09b-4002-9560-1ec291e152f4))
+  (fp_arc (start 3.711628 -1.583974) (mid 4.035529 -0.026043) (end 3.731762 1.535939) (layer "Edge.Cuts") (width 0.06) (tstamp 966c8a36-b5d2-471e-b2ac-5b9aa4ff76f6))
+  (fp_arc (start 0.49 -4.01) (mid 2.006667 -3.503425) (end 3.205756 -2.445557) (layer "Edge.Cuts") (width 0.06) (tstamp ab9595db-a680-4bad-a72b-55da1a3d5069))
+  (pad "1" thru_hole oval (at -2.75 4.763 330) (size 4.5 2.1) (drill oval 3.3 0.9) (layers *.Cu *.Mask) (tstamp 5a90138f-fd69-47b6-87df-f90b07e86699))
+  (pad "2" thru_hole oval (at 2.75 4.763 30) (size 4.5 2.1) (drill oval 3.3 0.9) (layers *.Cu *.Mask) (tstamp 7f5f10fb-9437-4efc-a8eb-434c3d62b711))
+  (group "" (id 308bfea5-61fe-4c30-afc7-559f20d5de73)
+    (members
+      2fc3408a-a487-4a73-8b05-074eb9ddcb7f
+      3e425e3f-14fb-4fd6-bdf2-17f58f37086a
+      76137da8-61a8-4ae0-9902-e9599ba20e8e
+      b7ab1bee-4e21-457f-b601-e338a1930f83
+      d101abf1-d4ed-44dc-8dd9-609b10478804
+    )
+  )
+  (group "" (id 37063b8f-56ef-4bd6-8001-b955ddaec640)
+    (members
+      329016f2-3cbc-4b2a-a343-4dffcf17ebc6
+      4502cfc7-78ef-4419-9ca8-880ff2436812
+      9297436f-1478-4447-972c-d78e9e10742e
+      e1ffe346-a422-4f5e-bf77-00af34e2e10f
+      f4d63de0-34d3-449f-b877-13701f4483dd
+    )
+  )
+  (group "" (id 4d4583c8-6e14-4243-8e77-dc277396415c)
+    (members
+      0bf471fb-401d-4f89-a4ae-577ff8a6729f
+      24b29eb6-7cfc-4813-a76f-d2a1340ae061
+      2eb50824-ca6f-4a2f-bb01-8128d9f0b2f3
+      b3d4e789-1f23-4126-9ff7-010e45b76752
+      fdb02c76-1721-43ab-b65b-57f5666b1af7
+    )
+  )
+  (group "" (id 780f9afb-cc20-42c8-b4ec-948e3d798623)
+    (members
+      5cabb5d6-9fa3-44d0-8ece-405419c32eab
+      62b40ae0-fe65-470b-ba60-12676aea3646
+      a017200c-b761-4110-aa33-c6b99816101c
+      c27fdc75-6303-4ad5-a72c-1fd23536c216
+      cd3de26f-094d-4bfe-b939-fb544a0b59cc
+    )
+  )
+  (group "" (id ed6cabe3-a32c-4a09-a4dd-4bd9579c1993)
+    (members
+      0079472d-614e-4bdb-a0b5-7bee54f2c5b9
+      1edb78b7-a8e1-4099-a5e3-11209caa25ac
+      532692a2-1f07-4b6c-ab28-23b5aab96d1c
+      763806d3-84fe-43b2-8c8a-1a97d1f1f1b9
+      8906284b-13a0-4ee0-99af-42c5cb15b520
+    )
+  )
+  (model "C:/Users/user/Documents/GitHub/IRIS_PCB/libs/power_board_support/FILETYPE MAM_CAD_3D_series_61_raised_emergency_stop_switch_compact-540223d3c40f356e513fbd20e5c5dbda.stp"
+    (offset (xyz 0 0 16.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -120))
+  )
+)

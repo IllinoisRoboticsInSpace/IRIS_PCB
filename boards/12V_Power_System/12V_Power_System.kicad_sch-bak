@@ -1,0 +1,3718 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b626a757-2d61-4d80-a0da-6a1235868e50")
+	(paper "A4")
+	(title_block
+		(title "12V Power System")
+		(date "2024-10-15")
+		(rev "3.0")
+	)
+	(lib_symbols
+		(symbol "1986660-2:1986660-2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1986660-2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "1986660_2a:TE_1986660-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "COMMENT" "1986660-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1986660-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1986660-2_0_0"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Zener_Filled"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Filled_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Irhapsody_Relay_12VDC_80/60A_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U4"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "irhapsody_relay_12vdc_8060a_4"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Irhapsody_Relay_12VDC_80/60A_1_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "87a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DPST_x2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPST_x2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPST_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPST_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "irhapsody_relay_12vdc_8060a"
+				(at 1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IRIS:IRhapsody Relay 12VDC 8060A"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Irhapsody_Relay_12VDC_80/60A_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "87a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 156.21 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a0e96cf-883a-45c9-b3ba-c214c3ea5cee")
+	)
+	(junction
+		(at 156.21 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a4d7c5-a214-4718-8ab6-942320d98ad3")
+	)
+	(junction
+		(at 156.21 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e977f9-7fac-4170-bd5a-4c04b6eef421")
+	)
+	(junction
+		(at 156.21 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "325366bf-67a5-4209-afd3-4c138ab3c035")
+	)
+	(junction
+		(at 156.21 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45e794cc-ed7c-4611-bfb6-97a0314f3c97")
+	)
+	(junction
+		(at 156.21 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62deb017-38f6-4705-8688-cc8cb6a3f07d")
+	)
+	(junction
+		(at 156.21 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754175e3-cb57-4609-9cd9-1c8ec2350ec5")
+	)
+	(junction
+		(at 156.21 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd92d62-51e0-4a8d-804e-68deb6781924")
+	)
+	(junction
+		(at 156.21 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f068a5b2-f356-4d1d-8251-6b6204902f09")
+	)
+	(junction
+		(at 156.21 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f39fe475-24db-464b-89f8-07c1f21ff7b7")
+	)
+	(no_connect
+		(at 133.35 125.73)
+		(uuid "344be858-6869-423c-896c-d0454c474087")
+	)
+	(no_connect
+		(at 133.35 100.33)
+		(uuid "3f48cc28-81e1-42c9-b06c-074154526efb")
+	)
+	(no_connect
+		(at 133.35 74.93)
+		(uuid "84513ced-0cdb-4dc2-8f24-a1b2527ba2a6")
+	)
+	(no_connect
+		(at 133.35 49.53)
+		(uuid "aaa3b5f3-904b-4cf8-ae19-16df8043a7c5")
+	)
+	(no_connect
+		(at 133.35 24.13)
+		(uuid "f1118be6-9a98-41c9-9f70-7444b22d739c")
+	)
+	(wire
+		(pts
+			(xy 107.95 135.89) (xy 125.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00488289-df9d-40ba-aa76-5378701bf296")
+	)
+	(wire
+		(pts
+			(xy 156.21 27.94) (xy 165.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cc55ce-dac6-4ccc-8ac5-e8f6b86adfeb")
+	)
+	(wire
+		(pts
+			(xy 156.21 140.97) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0692c3ed-5b91-48a0-b061-0e3234583c25")
+	)
+	(wire
+		(pts
+			(xy 140.97 54.61) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df2b29d-9209-4ad3-90d3-ea927d0f9d54")
+	)
+	(wire
+		(pts
+			(xy 156.21 39.37) (xy 156.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dc2140-b449-40be-bfbf-8beb462244b7")
+	)
+	(wire
+		(pts
+			(xy 165.1 53.34) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1867435b-969d-4083-b6db-d3945cc4c51f")
+	)
+	(wire
+		(pts
+			(xy 140.97 110.49) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2ff9e8-37b2-4fda-a3d3-bee362c5d3dc")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd78ff4-3bee-4226-bc8d-e341ecb6dcaa")
+	)
+	(wire
+		(pts
+			(xy 43.18 55.88) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b57ece-74d5-4ff6-811b-cd15f96559ed")
+	)
+	(wire
+		(pts
+			(xy 106.68 29.21) (xy 125.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27aebd34-e5f8-4c08-b6a0-97535bc7e21a")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6ecdbd-3ece-4ee5-8307-3ee90bce1c7b")
+	)
+	(wire
+		(pts
+			(xy 156.21 27.94) (xy 147.32 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bbb0af-2c33-4136-9f96-a42417e1c755")
+	)
+	(wire
+		(pts
+			(xy 170.18 140.97) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362c4c0d-0162-453b-baa5-04c60747195b")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3bd14e-f34a-47a5-a44f-75da15b15a0c")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbe32ce-56c8-48da-9d17-442fdd394831")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40583ae6-9d73-4695-a92f-2eb4160ff337")
+	)
+	(wire
+		(pts
+			(xy 156.21 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41030da7-a879-4922-935c-4a554ed23a6d")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d60e9c-b8ab-46b5-8143-7dd1a9e21c1c")
+	)
+	(wire
+		(pts
+			(xy 165.1 134.62) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4727f41b-bd9b-4fa5-9263-a85ec5a521a1")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a27927-d6b1-47b2-9852-a5e7b296fe78")
+	)
+	(wire
+		(pts
+			(xy 140.97 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e19640-921d-4c7d-90e2-024a3ef33aa8")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7ecc2d-ea72-46c2-a712-2f4cdaeb6e90")
+	)
+	(wire
+		(pts
+			(xy 156.21 35.56) (xy 147.32 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9ed00d-864b-4218-ab21-c4ca87fa3f81")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 125.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502ef624-052f-4a38-91f7-ce3e66e7f9fd")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551edcce-4d73-4009-882e-f7a505c3da15")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566ae7ed-b0ab-43b8-b90a-8041ba32d090")
+	)
+	(wire
+		(pts
+			(xy 165.1 33.02) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58378d66-9fcf-461b-80ba-030def71b53d")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4471c9-f9e7-4dc0-9f81-1a21423c6f8b")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63351217-1cf5-44a7-b859-311f0d779acb")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640422b8-e56b-4c58-aea8-e40d3f4c43f0")
+	)
+	(wire
+		(pts
+			(xy 170.18 39.37) (xy 156.21 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65da328a-c6df-4ebe-836f-5759cb05022e")
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d60bc8-a866-4abf-ba8a-641475e42a3e")
+	)
+	(wire
+		(pts
+			(xy 147.32 27.94) (xy 147.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3e1e77-7e3c-4972-8a2d-95fcfde437f3")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3167ca-95b3-4722-bae0-1b8dca140fd3")
+	)
+	(wire
+		(pts
+			(xy 147.32 135.89) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71768f54-dc3d-4110-9c85-95475c65b3f5")
+	)
+	(wire
+		(pts
+			(xy 140.97 29.21) (xy 147.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a6f48e-0c7e-48f1-b613-afccbf0b3c98")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f4f34b-9ac7-4cb1-b951-f7c967b13ede")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba76406-3766-43ff-a318-1f09d4c9b338")
+	)
+	(wire
+		(pts
+			(xy 140.97 59.69) (xy 147.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed5ba32-5e52-4d5f-8be6-e71a6d04163a")
+	)
+	(wire
+		(pts
+			(xy 165.1 137.16) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82706d3f-4605-4790-8614-b4af0d1bea20")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8345a911-7776-4377-b440-c900606d3464")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.17) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8531ce5a-80d3-42ba-9d8a-6f7ebfd3e972")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860dda83-9154-48b2-b36a-5a9a350cf9e7")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876a37c7-1ba3-45d7-9d6e-7832aaea0f17")
+	)
+	(wire
+		(pts
+			(xy 107.95 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9126d471-f50c-4e5f-bb42-ba8942a38afe")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bca1f5-b280-4f34-8292-9cfbf32881f2")
+	)
+	(wire
+		(pts
+			(xy 165.1 35.56) (xy 156.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f3e31e-67d2-443e-8b58-1a2f3e4e953f")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ff59a8-79eb-4d81-b88b-77cf438d8201")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6c8e68-408e-49eb-92c5-f00c373d5f9c")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc47404-9d2c-4256-9a50-9303dce608e2")
+	)
+	(wire
+		(pts
+			(xy 107.95 34.29) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f50e048-7fcc-41b2-9003-aad783071e6a")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a084baec-0425-4513-8816-42de525aaa35")
+	)
+	(wire
+		(pts
+			(xy 147.32 129.54) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ac1f0c-0102-40b0-b38d-b53208dd94c4")
+	)
+	(wire
+		(pts
+			(xy 170.18 64.77) (xy 156.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9a8b02-ada6-45c9-9f14-a805e234f63a")
+	)
+	(wire
+		(pts
+			(xy 147.32 34.29) (xy 147.32 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ee5a0a-22ab-4ac8-a245-e88ad1f2e235")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5793613-1201-4b9c-9a3e-817f45312d6c")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6972436-f151-4f9e-a07c-3338f61cd6c8")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedc0dd0-5618-4241-b9d3-627a521726b6")
+	)
+	(wire
+		(pts
+			(xy 140.97 135.89) (xy 147.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71c18d3-f077-40a0-8c98-2213e05c9f95")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89d1d5b-8532-4345-a647-36370999c398")
+	)
+	(wire
+		(pts
+			(xy 156.21 104.14) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06f5433-69a5-495d-9935-256a05bef183")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07fab70-136c-431c-93f3-53ba06f43947")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55143c9-d9e7-4ae5-946f-f7019e7febd9")
+	)
+	(wire
+		(pts
+			(xy 156.21 137.16) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87563b6-78bc-40f5-8a8e-18aeb970c2fa")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded7fb61-bc79-4df6-8af5-4e3e954f4928")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4729c7-c0b4-4781-a44c-1344f86450d6")
+	)
+	(wire
+		(pts
+			(xy 156.21 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23fcadf-a6be-4a0f-bc0e-e2a3f3c3f04d")
+	)
+	(wire
+		(pts
+			(xy 69.85 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27211ad-1397-4f50-937a-c3f5138a05e4")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 165.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c9fa08-9e0d-4006-9b3d-3ca747e1c704")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e723a34f-f503-40b9-8d33-8c95c5b99d51")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec44aef6-4955-4ba7-8369-0c1df8c798ff")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28fc1d8-91d9-43b7-b255-16ec71f179f5")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8930399-4e9d-4562-a367-acd92f917a03")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 147.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa34ff31-189e-4c5e-8c14-f243b24eb230")
+	)
+	(text_box "Map:\n\nB+	= Battery Voltage In\nB-	= Battery Voltage Out (a.k.a GND)\nMC+	= Motor Controller Volage In\nESO = E-STOP Out"
+		(exclude_from_sim no)
+		(at 38.1 25.4 0)
+		(size 40.64 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b96a43a7-95af-46bb-9721-130225f7c290")
+	)
+	(global_label "B-"
+		(shape input)
+		(at 170.18 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "190d5c69-2b0c-4e30-a31a-329adfd26668")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.0076 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESO"
+		(shape input)
+		(at 107.95 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dcd5abc-05a8-4382-8d6c-ad119bf04130")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 170.18 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2360f1a4-2420-48c5-928a-ec9a3910b370")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.0076 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 170.18 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cb9fc9b-aefe-4ac8-91e8-e3d1c3d38c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.0076 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESO"
+		(shape input)
+		(at 107.95 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ef32bac-416e-479a-8d5e-d6c5e1b68880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 106.68 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42608112-f779-4867-99e7-f09f1153afe5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8524 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESO"
+		(shape input)
+		(at 107.95 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67d03ee2-6b88-4211-bf46-0936089e400d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESO"
+		(shape input)
+		(at 69.85 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "711ccce4-44ba-43e0-87ab-f09c4181f62c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.5242 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 43.18 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "739d8a1b-d3cb-41c4-8b5e-e0900600314f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.3524 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 106.68 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "835d9e18-6036-4a0d-b91e-5e3b76f47107")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8524 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 106.68 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89e2f545-39de-4e4e-8304-94ebe52dcef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8524 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 170.18 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ce5efa2-2b9e-4708-bb58-bade4b880290")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.0076 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 170.18 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be31406c-1c7c-4ade-aa5f-bdce027a0cb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.0076 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 106.68 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf327aa0-7876-4bdf-a006-38c81729e8ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8524 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 43.18 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4a77581-88da-421f-b0d3-15f424b7aa1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.3524 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 43.18 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8b42c05-cc66-4b67-8d56-32be7604a2d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.3524 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESO"
+		(shape input)
+		(at 107.95 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea71577a-d741-40a5-925c-f55ae152b196")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 106.68 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6f51b2d-c780-4921-b403-7f2b39837bbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8524 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESO"
+		(shape input)
+		(at 107.95 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb9eda97-eff4-4775-aede-64432b8cb063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.2758 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 175.26 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06429eb8-6635-49c4-b7b9-47f657ad6d0b")
+		(property "Reference" "J4"
+			(at 181.61 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 181.61 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "8b6d3eee-412b-45b8-80ef-accf9e26bcd4")
+		)
+		(pin "1_1"
+			(uuid "ce6e2df1-64c9-44ff-9141-93f439a711a0")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 175.26 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1457089e-d0a1-4392-8e02-6a860027ba28")
+		(property "Reference" "J6"
+			(at 181.61 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 181.61 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "991dd1ae-11b4-4397-b2ae-eb380ce75b8d")
+		)
+		(pin "1_1"
+			(uuid "94922761-cd57-41fe-9c51-458a495d8a96")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 175.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26e917d0-1b48-4079-b243-2853e00a0169")
+		(property "Reference" "J3"
+			(at 181.61 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 181.61 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "7b91554e-7c17-4612-97d4-b6fb06aab615")
+		)
+		(pin "1_1"
+			(uuid "54dc730d-5104-4a30-94a5-2893ef378d02")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 57.15 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cd0bca-8296-4ae9-a343-e8d8d9439f43")
+		(property "Reference" "E-STOP5"
+			(at 57.15 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "E-STOP NC"
+			(at 59.182 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:E-Stop"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 57.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa25e25-cc7c-45cb-9b32-b96c619b38f7")
+		)
+		(pin "2"
+			(uuid "11b83a37-d602-4e56-ae8c-4c11b4a96078")
+		)
+		(pin "3"
+			(uuid "8c9cd256-6479-4d06-97fe-a3dff048772a")
+		)
+		(pin "4"
+			(uuid "83fa089a-dd7a-45d3-b8a6-50cc0bd15cfe")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "E-STOP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 58.42 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57d5054d-f041-4f6b-9bf2-4b0f87e29ade")
+		(property "Reference" "J1"
+			(at 64.77 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 64.77 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "2e7853f7-3a10-4614-ad65-5fa64c4636bf")
+		)
+		(pin "1_1"
+			(uuid "41c9ad06-6940-4b1b-8647-996e3316dc03")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 156.21 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "596f352e-3c06-4178-98a2-11a3ab095e67")
+		(property "Reference" "ZENER_DIODE4"
+			(at 152.654 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 150.368 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4daafd7-bce5-4110-9caf-f431728cfb1d")
+		)
+		(pin "2"
+			(uuid "f1f474d2-272f-4659-9e15-be78919ae856")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 156.21 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dc00d7b-fe98-4a98-9e0c-82e4e089f958")
+		(property "Reference" "ZENER_DIODE1"
+			(at 152.654 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 150.368 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "806f7b72-3f0d-47a4-b83c-e0d7dd60bf2c")
+		)
+		(pin "2"
+			(uuid "c54741c6-37ce-4f0c-9523-70d9b9fe1145")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 133.35 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6807af7d-ec56-4dfd-a839-12c258bde7bd")
+		(property "Reference" "U2"
+			(at 133.35 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_2"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b177044-8962-423d-8e85-5c56c4cd8fd6")
+		)
+		(pin "5"
+			(uuid "7105f935-644e-4761-8c64-4d41e2e53413")
+		)
+		(pin "4"
+			(uuid "65e5b609-1e38-44ff-a6ed-226a34d51f80")
+		)
+		(pin "3"
+			(uuid "e098789f-eb47-468f-af24-3a80a18a0660")
+		)
+		(pin "1"
+			(uuid "999a568f-2024-4318-86e0-de9f628460c9")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 133.35 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "818b490f-52bc-4f30-86dc-200e21ed3153")
+		(property "Reference" "U1"
+			(at 133.35 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_1"
+			(at 134.62 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 133.35 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b2f55ae-5733-4e0a-973e-9011f25225a2")
+		)
+		(pin "5"
+			(uuid "4dc86af3-ea8d-44d9-a268-d9f993d5ff7a")
+		)
+		(pin "4"
+			(uuid "8e2bd671-78d6-43af-9755-0521f1005c13")
+		)
+		(pin "3"
+			(uuid "c9330cb9-9dc7-4a38-9fe1-26661e4d6e3a")
+		)
+		(pin "1"
+			(uuid "869b477f-c40a-497d-b962-afee7a40f8d9")
+		)
+		(instances
+			(project ""
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 133.35 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91df27af-f4ac-49f5-9ad5-9e9d472a0192")
+		(property "Reference" "U5"
+			(at 133.35 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_5"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 133.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffa25ffe-8f31-40e0-9a71-375e56988e5b")
+		)
+		(pin "5"
+			(uuid "2c7fb5f3-4dab-4dc9-bab2-8196d79016fb")
+		)
+		(pin "4"
+			(uuid "da3734b8-3c2f-4c56-82f5-4c619d31570c")
+		)
+		(pin "3"
+			(uuid "d9bdfb9f-a183-4cd9-8d76-27fe45d25110")
+		)
+		(pin "1"
+			(uuid "e2958230-e6d1-41b8-8af6-e8ef37e95a08")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 175.26 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa4ae7c4-21c3-426b-b0f8-8cf92d854b84")
+		(property "Reference" "J2"
+			(at 181.61 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 181.61 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 175.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "56cb27ad-8a4b-47e5-b415-f1374f7af809")
+		)
+		(pin "1_1"
+			(uuid "3cf3891f-eace-4164-a24a-c39037ffa622")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 133.35 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bac9b385-ddcd-4110-8e40-d2a6d29211ec")
+		(property "Reference" "U3"
+			(at 133.35 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_3"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdf7a13-3f3e-426b-a39e-a6c49e8d1bb0")
+		)
+		(pin "5"
+			(uuid "96aa2e6a-2df4-42ff-bb96-403572ef1178")
+		)
+		(pin "4"
+			(uuid "bafc49af-87da-4456-aeef-93f676326553")
+		)
+		(pin "3"
+			(uuid "4f6c4e4e-3dd2-44a2-9d92-1126c350c3c4")
+		)
+		(pin "1"
+			(uuid "30e7b97b-49e7-4e69-bb7d-509b3b9c5845")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Irhapsody_Relay_12VDC_80/60A_1")
+		(lib_id "irhapsody_relay_12vdc_8060a:Irhapsody_Relay_12VDC_80/60A")
+		(at 133.35 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1b4d25b-a3e6-4618-9638-f8f2754ed983")
+		(property "Reference" "U4"
+			(at 133.35 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "irhapsody_relay_12vdc_8060a_4"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "REAAAL:IRhapsody Relay 12VDC 8060A"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3479f16-5a3e-432e-a10c-d2f2d58b7dd8")
+		)
+		(pin "5"
+			(uuid "d106d143-a3ee-4bb8-89dc-3e95f5a360b5")
+		)
+		(pin "4"
+			(uuid "8e6035b5-5d9d-437e-827e-7dd728486a42")
+		)
+		(pin "3"
+			(uuid "ebacb316-0092-4275-b4a1-78b7decc1f58")
+		)
+		(pin "1"
+			(uuid "1f2ed904-b30b-4412-83f4-815404675c7a")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 156.21 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c20dcd56-7d4f-4c65-9eb5-89efd1314bac")
+		(property "Reference" "ZENER_DIODE5"
+			(at 152.654 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 150.368 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18a4d0e3-53e8-4524-82ab-dd75316e71ba")
+		)
+		(pin "2"
+			(uuid "db228054-853a-4ddc-8184-14882317cb64")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1986660-2:1986660-2")
+		(at 175.26 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5871b72-f0f3-4ef4-88a1-ed33b2a06c5c")
+		(property "Reference" "J5"
+			(at 181.61 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1986660-2"
+			(at 181.61 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "REAAAL:TE_1986660-2"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Terminal Block 2 POS 10.16mm Solder ST Thru-Hole 65A Package"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" "1986660-2"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" "https://www.te.com/usa-en/product-1986660-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1986660-2"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2_1"
+			(uuid "d0bfdb50-8e55-4d28-ba2c-1add86637b2e")
+		)
+		(pin "1_1"
+			(uuid "af1a757f-3fc2-4162-821c-16277b2ba986")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 156.21 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da5390d4-e03f-471e-bd48-23d2b9755ed1")
+		(property "Reference" "ZENER_DIODE2"
+			(at 152.654 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 150.368 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c769795-4145-488b-aeb0-75d9e20276a0")
+		)
+		(pin "2"
+			(uuid "0bd7575e-65a0-4e67-a88a-51ab6d58b9d2")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Filled")
+		(at 156.21 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed091709-3f4c-48e0-8742-80b658e14516")
+		(property "Reference" "ZENER_DIODE3"
+			(at 152.654 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16Vz"
+			(at 150.368 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "284c4819-a0b7-4ddd-bb3d-4d774640aaf5")
+		)
+		(pin "2"
+			(uuid "b5102c30-fd77-43bc-917f-5d0e199ee05a")
+		)
+		(instances
+			(project "12V_Power_System"
+				(path "/b626a757-2d61-4d80-a0da-6a1235868e50"
+					(reference "ZENER_DIODE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

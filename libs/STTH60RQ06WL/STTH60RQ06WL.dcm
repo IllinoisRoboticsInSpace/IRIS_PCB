@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STTH60RQ06WL
+D 600 V, 60 A Turbo 2 Soft Ultrafast Recovery Diode
+K
+F https://www.st.com/resource/en/datasheet/stth60rq06.pdf
+$ENDCMP
+#
+#End Doc Library
