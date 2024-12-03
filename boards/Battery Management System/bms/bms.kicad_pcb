@@ -7243,6 +7243,17 @@
 			(uuid "7eb87f1b-2a49-41bd-b583-afd7da5e34b8")
 		)
 	)
+	(gr_rect
+		(start 20 28)
+		(end 66 72)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "4dd52d27-d31e-4595-8f10-ecc4795573d6")
+	)
 	(gr_text "+"
 		(at 37.559199 50.249499 90)
 		(layer "B.SilkS")
@@ -9264,34 +9275,6 @@
 				(xy 65.943039 28.019685) (xy 65.988794 28.072489) (xy 66 28.124) (xy 66 71.876) (xy 65.980315 71.943039)
 				(xy 65.927511 71.988794) (xy 65.876 72) (xy 20.124 72) (xy 20.056961 71.980315) (xy 20.011206 71.927511)
 				(xy 20 71.876) (xy 20 28.124) (xy 20.019685 28.056961) (xy 20.072489 28.011206) (xy 20.124 28) (xy 65.876 28)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "Edge.Cuts")
-		(uuid "d052a12e-623b-4ad2-92ab-964c2ce4e3e9")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 20 28) (xy 20 72) (xy 66 72) (xy 66 28)
 			)
 		)
 	)
