@@ -6073,7 +6073,7 @@
 				)
 			)
 		)
-		(property "Value" "78.7k"
+		(property "Value" "73.2k"
 			(at 153.924 300.99 90)
 			(effects
 				(font
@@ -6589,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3.3"
 			(at 138.049 154.813 90)
 			(effects
 				(font
@@ -6807,7 +6807,7 @@
 				)
 			)
 		)
-		(property "Value" "78.7k"
+		(property "Value" "73.2"
 			(at 153.162 240.284 90)
 			(effects
 				(font
@@ -8019,7 +8019,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "1.2uH"
 			(at 151.257 221.869 90)
 			(effects
 				(font
@@ -8852,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3.3"
 			(at 138.303 216.154 90)
 			(effects
 				(font
@@ -9777,7 +9777,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "1.2uH"
 			(at 151.384 160.528 90)
 			(effects
 				(font
@@ -10373,7 +10373,7 @@
 				)
 			)
 		)
-		(property "Value" "78.7k"
+		(property "Value" "73.2"
 			(at 153.289 178.943 90)
 			(effects
 				(font
@@ -11751,7 +11751,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3.3"
 			(at 138.811 276.86 90)
 			(effects
 				(font
@@ -12858,7 +12858,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "1.2uH"
 			(at 152.019 282.575 90)
 			(effects
 				(font
