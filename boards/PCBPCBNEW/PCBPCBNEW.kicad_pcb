@@ -181,10 +181,18 @@
 	(net 36 "Net-(U1-FB)")
 	(net 37 "Net-(U2-FB)")
 	(net 38 "Net-(U3-FB)")
-	(net 39 "/GL")
+	(net 39 "unconnected-(U1-GL-Pad10)")
 	(net 40 "Net-(U1-VOUT)")
 	(net 41 "Net-(U2-VOUT)")
 	(net 42 "Net-(U3-VOUT)")
+	(net 43 "unconnected-(U1-GL-Pad10)_1")
+	(net 44 "unconnected-(U1-GL-Pad10)_2")
+	(net 45 "unconnected-(U2-GL-Pad10)")
+	(net 46 "unconnected-(U2-GL-Pad10)_1")
+	(net 47 "unconnected-(U2-GL-Pad10)_2")
+	(net 48 "unconnected-(U3-GL-Pad10)")
+	(net 49 "unconnected-(U3-GL-Pad10)_1")
+	(net 50 "unconnected-(U3-GL-Pad10)_2")
 	(footprint "MountingHole:MountingHole_3.5mm_Pad_Via"
 		(layer "F.Cu")
 		(uuid "03af8944-5b1e-4bfe-ba08-c9c564418ae0")
@@ -425,7 +433,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bca3a43e-079d-4e4e-95c6-b1fe3e4e2c34")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -585,7 +593,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "1.2uH"
 			(at 0 7.85 90)
 			(layer "F.Fab")
 			(uuid "9f0867e0-9524-462b-b99c-55cf1195e7e3")
@@ -635,7 +643,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/4399d4ed-82fc-426a-9037-fb36fea9614d")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -6.45 6.45)
@@ -886,7 +894,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c7c30c30-be20-4458-a4a1-cc5add4871e3")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1165,7 +1173,7 @@
 		)
 		(path "/ea82c7d3-1749-42c7-b0df-1ce8367dbb5d")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2 2)
@@ -1423,18 +1431,18 @@
 			(at 1.025 1.935 270)
 			(size 0.3 0.73)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 47 "unconnected-(U2-GL-Pad10)_2")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "61a33bba-69f2-42e1-bf0d-7be840aa9304")
 		)
 		(pad "11" smd rect
 			(at 1.9375 1.425)
 			(size 0.3 0.725)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 45 "unconnected-(U2-GL-Pad10)")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "1b19265a-aa60-45a0-aa32-fc80702d82f6")
 		)
 		(pad "12" smd rect
@@ -1594,9 +1602,9 @@
 			(at 0.985 0.99 270)
 			(size 0.58 0.38)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 46 "unconnected-(U2-GL-Pad10)_1")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "4cda0d7a-0dd5-4c9e-b051-7a906dd87a6a")
 		)
 	)
@@ -1668,7 +1676,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bd4c6784-b7df-4aa8-9e25-0654af4baeb7")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1879,7 +1887,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/de442dad-c430-4375-8573-24d7fc10bbab")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -2090,7 +2098,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4a117b85-3562-44c0-9b25-af38a4eb3940")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -2301,7 +2309,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dde8964a-c5b2-475a-93f1-6a7770a37a6c")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -2461,7 +2469,7 @@
 				)
 			)
 		)
-		(property "Value" "78.7k"
+		(property "Value" "73.2k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e9e2fccb-14f3-4885-9214-1557bb2c1a4c")
@@ -2511,7 +2519,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/096b6dea-c482-43a7-9d6a-eec14166b08b")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2671,7 +2679,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3.3"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "49988e58-3f5a-4bab-bfdb-a6b98f958484")
@@ -2721,7 +2729,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6abc9a42-6cfb-4550-9253-0b0eec34d99d")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2881,7 +2889,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "1.2uH"
 			(at 0 7.85 90)
 			(layer "F.Fab")
 			(uuid "2be5bdba-13f5-421b-9161-e38243c9254e")
@@ -2931,7 +2939,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/f249da36-4706-4de3-8a05-62f5c5bb250c")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -6.45 6.45)
@@ -3181,7 +3189,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c49c77d7-8472-4e74-887f-7f76e84b7140")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -3392,7 +3400,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a44837f5-b151-416f-918c-dedc9fd15aec")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -3603,7 +3611,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/eac9af46-28fc-4020-9fb7-1655471a3db8")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -3763,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3.3"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "6932edea-da8e-44bc-adaa-4e9d05b38611")
@@ -3813,7 +3821,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d54f25bb-8e8c-4884-b3f4-5bf3adad2894")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -4023,7 +4031,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/07b2a630-671d-4471-bc73-30a8327f3116")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -4278,7 +4286,7 @@
 		)
 		(path "/29962671-0a2c-4848-a4df-edbfcdcb5fae")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.44 0.79)
@@ -4466,7 +4474,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/40043b89-fb7e-4b9e-b36e-cae5ae6e6d78")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -4849,7 +4857,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cb4e0a46-5cce-4a78-8bea-88accb224327")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -5060,7 +5068,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/86bc9ca1-9c71-4363-a713-06a30f68cfe6")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5270,7 +5278,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/840f25d3-9179-453b-aa90-d5a63eba77fc")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5480,7 +5488,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ac7e4034-7e15-46e2-8c26-9fd56a1d5eb8")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5690,7 +5698,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/de0b9e66-c331-4043-a4c3-155fe2f2b3f9")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5901,7 +5909,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/38cac583-9104-4d6a-a112-64f7792092f1")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6156,7 +6164,7 @@
 		)
 		(path "/6bd4c134-a246-48b1-8271-28eeab726400")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.44 0.79)
@@ -6345,7 +6353,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/accbaa27-a96a-499a-b6e0-1d9d122959d8")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6556,7 +6564,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bae6024e-878c-48ed-966e-deb31d32fac4")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6766,7 +6774,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d496bfff-907d-4098-a4f3-d9c08396e390")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6977,7 +6985,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b3e4bedc-1901-46f5-b96a-1d27be138e32")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7188,7 +7196,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8884540d-9a93-4a41-9c26-911fc723f5fa")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7348,7 +7356,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH"
+		(property "Value" "1.2uH"
 			(at 0 7.85 90)
 			(layer "F.Fab")
 			(uuid "0b3821cf-d9b5-4071-96c5-e9930736eba7")
@@ -7398,7 +7406,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/9aef0d9d-0599-4983-b500-2fa805adb0bf")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -6.45 6.45)
@@ -7649,7 +7657,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/831a8139-6a67-4ae1-8296-910108aa41c3")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -7860,7 +7868,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e50633c6-900f-4f9b-90c7-8c3c67b33b41")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -8071,7 +8079,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0b73f6fc-3255-4305-90be-a4fa0166c80c")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -8231,7 +8239,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "3.3"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "4c1f4a9e-d324-458e-8c20-53e46b33cf7d")
@@ -8281,7 +8289,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/19a88cca-3cf7-4211-bff2-c4796c18554e")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -8492,7 +8500,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ac70f65e-bdd5-4c36-9ed4-646a10f442ad")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -8703,7 +8711,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0bf3044b-7de1-421f-b028-fa52e136cd0f")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -9085,7 +9093,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5d2ffae5-ed03-473e-bfc8-6d90316ce693")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -9340,7 +9348,7 @@
 		)
 		(path "/c3f98826-2ec5-48e5-8fb4-5c198ccacd07")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.44 0.79)
@@ -9529,7 +9537,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0026968e-5b7b-49bb-89d0-a2f9a1b03f57")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -9740,7 +9748,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6ba5e288-77b5-462f-8280-7e494a8e6a23")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -9951,7 +9959,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/46a01968-1fc5-4942-ae0e-50db36ccdedb")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -10230,7 +10238,7 @@
 		)
 		(path "/397a75c2-00f6-4a86-8ce6-b536a72165da")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2 2)
@@ -10488,18 +10496,18 @@
 			(at 1.025 1.935 270)
 			(size 0.3 0.73)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 39 "unconnected-(U1-GL-Pad10)")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "40baf187-b691-4e09-ba6b-6f6440355b89")
 		)
 		(pad "11" smd rect
 			(at 1.9375 1.425)
 			(size 0.3 0.725)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 44 "unconnected-(U1-GL-Pad10)_2")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "cb2fcfb5-b38b-47f2-9da3-e964b6e656fa")
 		)
 		(pad "12" smd rect
@@ -10659,9 +10667,9 @@
 			(at 0.985 0.99 270)
 			(size 0.58 0.38)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 43 "unconnected-(U1-GL-Pad10)_1")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "abd9df4a-48fb-49f5-baa2-e2d8cf69d32f")
 		)
 	)
@@ -10682,7 +10690,7 @@
 				)
 			)
 		)
-		(property "Value" "78.7k"
+		(property "Value" "73.2"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "68b9a8e4-b599-4f56-a0df-e255fb2f05bc")
@@ -10732,7 +10740,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ad51443a-43c9-4554-aa47-6ec95d7f69bf")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -10943,7 +10951,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59276429-d7e2-4c16-a0a5-a413b8585214")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -11154,7 +11162,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/aacae0d8-7aab-4f7e-aaee-0915fdb2b951")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -11365,7 +11373,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dc8f218b-41e2-4ec2-a3d9-98b1f0c57328")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -11644,7 +11652,7 @@
 		)
 		(path "/4c0ab455-984f-4f1c-b75c-42045a60a56e")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2 2)
@@ -11902,18 +11910,18 @@
 			(at 1.025 1.935 270)
 			(size 0.3 0.73)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 49 "unconnected-(U3-GL-Pad10)_1")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "6648e915-f1cb-4312-9aa1-f6c486c80183")
 		)
 		(pad "11" smd rect
 			(at 1.9375 1.425)
 			(size 0.3 0.725)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 50 "unconnected-(U3-GL-Pad10)_2")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "b4085d10-7e09-4773-8bc4-ee11db3ba548")
 		)
 		(pad "12" smd rect
@@ -12073,9 +12081,9 @@
 			(at 0.985 0.99 270)
 			(size 0.58 0.38)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 39 "/GL")
+			(net 48 "unconnected-(U3-GL-Pad10)")
 			(pinfunction "GL")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "4c7137f4-f089-4272-9676-dd45fe31d23e")
 		)
 	)
@@ -12146,7 +12154,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c7190dc1-567a-4a62-91fb-d6344db68bd9")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -12357,7 +12365,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ccc08f12-edcc-4847-b56f-844e62436b67")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -12568,7 +12576,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2c9766fb-c374-480e-8d88-f17e1140ea66")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -12779,7 +12787,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/267495b9-5e3b-4783-ac8e-31127b66fd2d")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -12939,7 +12947,7 @@
 				)
 			)
 		)
-		(property "Value" "78.7k"
+		(property "Value" "73.2"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "bc7363fe-1492-4836-aee8-a8da15472d72")
@@ -12989,7 +12997,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/22a7547e-8ba4-499e-b99c-05a087db7b93")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13200,7 +13208,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b0c39efb-94e2-43b8-8ed2-78b59c3f6f86")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -13585,7 +13593,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/348c296a-2482-49db-9542-5523f1508bb0")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13798,7 +13806,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/52a65040-fdb3-4833-899d-8c4cba337e17")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14011,7 +14019,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/05968aeb-21ff-48e5-9bcf-d2553783b19d")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -14224,7 +14232,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1761fc82-04d9-4fc5-9b5e-03547baefb3e")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -14438,7 +14446,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/09d09b85-85bd-407f-8cbe-163aa12f5db5")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -14652,7 +14660,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a01ea4a6-754a-4b8c-a24a-b5134cd97d70")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -14865,7 +14873,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e8804e5-6f31-4700-99fe-f4fa4b7051dc")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -15079,7 +15087,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/bd8bd4a9-c0cd-47af-8734-8e9ada1b7dc1")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.421 -1.44)
@@ -17588,7 +17596,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3d9582d5-5a36-4d7d-aad2-2834d8010e26")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -17801,7 +17809,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7fad8883-5a75-4f2c-8c4a-701ce33f2413")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -18014,7 +18022,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e216efb7-0b89-499e-b1a3-f578fe2298a0")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -18227,7 +18235,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b7d5bd53-acfd-44f3-b5ed-4fac9223e624")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -18440,7 +18448,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2f00e339-6271-4d96-aded-c8893897d488")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -18654,7 +18662,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/3a0648ea-f608-4795-922d-d5d1990225bc")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.421 -1.44)
@@ -21163,7 +21171,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/102c21cd-2096-4ca6-a491-1af42f7ed201")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.421 -1.44)
@@ -23670,7 +23678,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/4ef83b62-caf5-4f50-bc28-7c3aa9a4f7cc")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5.08 -16.9)
@@ -23970,7 +23978,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9a609148-c6f2-43ef-8ab5-8d6a74ca3f15")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -24484,7 +24492,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d8c87f2-dd9b-4116-96d1-0aae394aa043")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -24696,7 +24704,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/530212f7-3b3d-4b74-894d-94cfd245fad8")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -15.1 -4.1)
@@ -24949,7 +24957,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/043141d5-4d39-43f4-9453-59dc03ec111e")
 		(sheetname "Root")
-		(sheetfile "Power Distribution Board Ver.2.kicad_sch")
+		(sheetfile "PCBPCBNEW.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -27412,150 +27420,6 @@
 		(uuid "cb8308a8-a5c7-4c43-9079-85d14abe2dca")
 	)
 	(segment
-		(start 25.760345 70.587)
-		(end 25.250345 70.077)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "045aafa5-3579-4117-8a1f-2e5306daed99")
-	)
-	(segment
-		(start 43.305345 70.472)
-		(end 43.740345 70.037)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "190ca70c-788e-48e2-a909-0e5bedeec5bf")
-	)
-	(segment
-		(start 25.250345 70.077)
-		(end 26.155345 70.077)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "42e4820f-08b0-4756-a54c-534991b042c4")
-	)
-	(segment
-		(start 64.627845 70.0445)
-		(end 64.667845 70.0045)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "4dbaa1a9-4b32-40ab-a0cb-7f9c9b1a7a8e")
-	)
-	(segment
-		(start 63.722845 70.0445)
-		(end 63.722845 70.447)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "51dc1421-a6fa-4c89-b876-07092b894396")
-	)
-	(segment
-		(start 42.795345 70.077)
-		(end 43.700345 70.077)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "538782c2-658e-4164-8c3d-7af05eaf7a11")
-	)
-	(segment
-		(start 64.232845 70.4395)
-		(end 64.667845 70.0045)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "62eb6e9b-f5e1-430a-b9d9-6661983c788c")
-	)
-	(segment
-		(start 63.722845 70.0445)
-		(end 64.627845 70.0445)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "74921991-2d3b-44cf-8e3e-1d49e8c6833d")
-	)
-	(segment
-		(start 42.795345 70.4795)
-		(end 43.305345 70.9895)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "7be4f31a-a1b4-428f-8f25-c71f60b264dd")
-	)
-	(segment
-		(start 25.760345 70.9895)
-		(end 25.760345 70.587)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "9e933e48-2829-438c-ae73-134c1e22d614")
-	)
-	(segment
-		(start 26.155345 70.077)
-		(end 26.195345 70.037)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "a0f40017-dd13-4bda-b3d2-e1e86808aa95")
-	)
-	(segment
-		(start 43.305345 70.9895)
-		(end 43.305345 70.472)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "ab93df6c-3403-43d2-aba6-b0dad846b895")
-	)
-	(segment
-		(start 42.795345 70.077)
-		(end 42.795345 70.4795)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "b0d2aad7-2642-4f04-8269-c59898639e88")
-	)
-	(segment
-		(start 43.700345 70.077)
-		(end 43.740345 70.037)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "b1ebc33c-09a4-4c8f-a861-0f0f73562ec4")
-	)
-	(segment
-		(start 64.232845 70.957)
-		(end 64.232845 70.4395)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "b6cbbb1c-9379-4159-80ed-a68d597151c1")
-	)
-	(segment
-		(start 25.760345 70.472)
-		(end 25.760345 70.9895)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "d1e6f8c9-a5a3-497f-8806-d22b83846370")
-	)
-	(segment
-		(start 26.195345 70.037)
-		(end 25.760345 70.472)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "f09593c6-09e5-4caf-bc45-9d7b353ea254")
-	)
-	(segment
-		(start 63.722845 70.447)
-		(end 64.232845 70.957)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "f5f9ad8a-205a-45e4-b710-2cf94cd117e8")
-	)
-	(segment
 		(start 71.090345 81.207)
 		(end 71.090345 80.482)
 		(width 1)
@@ -28002,6 +27866,30 @@
 		(layer "F.Cu")
 		(net 42)
 		(uuid "fd6ef277-27aa-4c63-a088-a9411f55998c")
+	)
+	(segment
+		(start 64.627845 70.0445)
+		(end 64.667845 70.0045)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 43)
+		(uuid "4dbaa1a9-4b32-40ab-a0cb-7f9c9b1a7a8e")
+	)
+	(segment
+		(start 43.700345 70.077)
+		(end 43.740345 70.037)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "b1ebc33c-09a4-4c8f-a861-0f0f73562ec4")
+	)
+	(segment
+		(start 26.155345 70.077)
+		(end 26.195345 70.037)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 48)
+		(uuid "a0f40017-dd13-4bda-b3d2-e1e86808aa95")
 	)
 	(zone
 		(net 2)
