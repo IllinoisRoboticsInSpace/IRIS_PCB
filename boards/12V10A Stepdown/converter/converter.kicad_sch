@@ -3610,7 +3610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3185b2b8-cbf5-481f-8ad3-c3b593cd75db")
-		(property "Reference" "Cilim"
+		(property "Reference" "Cilim1"
 			(at 162.56 120.6499 0)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cilim")
+					(reference "Cilim1")
 					(unit 1)
 				)
 			)
@@ -3766,7 +3766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "10A_LIbrary:RES_CRCW_0402"
 			(at 189.484 82.804 90)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72517376-7841-4be5-898f-5075ef8be211")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 214.63 130.8099 0)
 			(effects
 				(font
@@ -4196,7 +4196,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7db0b9bb-9ef9-4b38-95a7-d4959d6934c0")
-		(property "Reference" "Cvin"
+		(property "Reference" "Cvin1"
 			(at 82.55 69.8499 0)
 			(effects
 				(font
@@ -4266,7 +4266,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cvin")
+					(reference "Cvin1")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TB005-762-02BE:CUI_TB005-762-02BE"
+		(property "Footprint" "10A_LIbrary:TB005-762-02BE_CUD"
 			(at 252.73 114.3 0)
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e7609d6-3bed-421f-b11f-c6f042169e68")
-		(property "Reference" "Rpgood"
+		(property "Reference" "Rpgood1"
 			(at 139.7 99.0599 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rpgood")
+					(reference "Rpgood1")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a562068e-17d7-4ab2-b129-21f8219a292a")
-		(property "Reference" "2.2uH"
+		(property "Reference" "2.2uH1"
 			(at 168.91 90.17 90)
 			(effects
 				(font
@@ -4633,7 +4633,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "2.2uH")
+					(reference "2.2uH1")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22face4-0c1b-4baa-82de-c82bf2c6f633")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 52.07 76.1999 0)
 			(effects
 				(font
@@ -4837,7 +4837,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba240944-dc14-4dca-be25-e927b3454214")
-		(property "Reference" "Rt"
+		(property "Reference" "Rt1"
 			(at 62.23 104.1399 0)
 			(effects
 				(font
@@ -4907,7 +4907,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rt")
+					(reference "Rt1")
 					(unit 1)
 				)
 			)
@@ -4923,7 +4923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc019efa-c4ae-46d3-869d-001fde0fee8e")
-		(property "Reference" "Cvcc"
+		(property "Reference" "Cvcc1"
 			(at 147.32 120.6499 0)
 			(effects
 				(font
@@ -4977,7 +4977,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cvcc")
+					(reference "Cvcc1")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be87d359-924e-415c-a220-c618f6e6a43c")
-		(property "Reference" "Css"
+		(property "Reference" "Css1"
 			(at 74.93 104.1399 0)
 			(effects
 				(font
@@ -5047,7 +5047,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Css")
+					(reference "Css1")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc46195-0036-4e50-a33c-01498e9c4160")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout1"
 			(at 234.95 106.2481 0)
 			(effects
 				(font
@@ -5117,7 +5117,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cout")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d45be7-e3fd-4e7b-a0aa-18441da05203")
-		(property "Reference" "Rvin"
+		(property "Reference" "Rvin1"
 			(at 81.28 52.0699 0)
 			(effects
 				(font
@@ -5187,7 +5187,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rvin")
+					(reference "Rvin1")
 					(unit 1)
 				)
 			)
@@ -5203,7 +5203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f9a313-f6a4-4bbd-b3e8-bd862812187b")
-		(property "Reference" "Rvcc"
+		(property "Reference" "Rvcc1"
 			(at 152.4 99.0599 0)
 			(effects
 				(font
@@ -5257,7 +5257,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rvcc")
+					(reference "Rvcc1")
 					(unit 1)
 				)
 			)
@@ -5273,7 +5273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d535c046-462a-44e1-8248-0a8572ff6674")
-		(property "Reference" "Cbst"
+		(property "Reference" "Cbst1"
 			(at 134.62 81.28 90)
 			(effects
 				(font
@@ -5325,7 +5325,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cbst")
+					(reference "Cbst1")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TB005-762-02BE:CUI_TB005-762-02BE"
+		(property "Footprint" "10A_LIbrary:TB005-762-02BE_CUD"
 			(at 39.37 60.96 0)
 			(effects
 				(font
@@ -5648,7 +5648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f62b6317-4442-434e-b2cb-03510f0195bb")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 214.63 100.3299 0)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -5717,7 +5717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcdcdc97-ca24-447c-9606-4af2c3d04c87")
-		(property "Reference" "Rilim"
+		(property "Reference" "Rilim1"
 			(at 165.1 82.5499 0)
 			(effects
 				(font
@@ -5771,7 +5771,7 @@
 		(instances
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Rilim")
+					(reference "Rilim1")
 					(unit 1)
 				)
 			)
