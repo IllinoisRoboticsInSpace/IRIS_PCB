@@ -5700,7 +5700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "29.6mOhm"
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 97.79 0)
 			(effects
 				(font
