@@ -2394,6 +2394,12 @@
 		(uuid "7e00d87a-9249-4d1b-b7a8-a41ea7a4d92f")
 	)
 	(junction
+		(at 67.31 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89b04cc0-0f3a-4725-8a4c-e78b6ba6aee5")
+	)
+	(junction
 		(at 48.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2434,12 +2440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d065e3f4-1d0b-40b1-b279-65e5e17cc616")
-	)
-	(junction
-		(at 67.31 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed536504-8453-4e6a-989c-1a0b9563ac77")
 	)
 	(junction
 		(at 36.83 147.32)
@@ -2610,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "1c3c8391-c0fc-4f62-b5a2-92fb377c917e")
+	)
+	(wire
+		(pts
+			(xy 67.31 73.66) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa3f257-d719-49b7-a2a2-8ac9578c7663")
 	)
 	(wire
 		(pts
@@ -2933,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 77.47 76.2)
+			(xy 77.47 85.09) (xy 77.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3263,7 +3273,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 66.04) (xy 67.31 76.2)
+			(xy 67.31 66.04) (xy 67.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3310,6 +3320,16 @@
 			(type default)
 		)
 		(uuid "a5e8bc28-1fb4-4712-ae5e-2bcf1abc73de")
+	)
+	(wire
+		(pts
+			(xy 67.31 82.55) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dc2857-2aa9-4464-8108-7b6efbd20823")
 	)
 	(wire
 		(pts
@@ -3373,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 67.31 76.2)
+			(xy 77.47 73.66) (xy 67.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3633,16 +3653,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 67.31 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e435eff8-2bbc-4751-bd23-0d0fb46d052e")
-	)
-	(wire
-		(pts
 			(xy 195.58 48.26) (xy 195.58 95.25)
 		)
 		(stroke
@@ -3885,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:CAP_06031U0R5BAT2A"
 			(at 148.2852 134.62 0)
 			(effects
 				(font
@@ -3955,7 +3965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0402N_VIS"
 			(at 49.276 86.614 90)
 			(effects
 				(font
@@ -4143,7 +4153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RES_CRCW_0402"
 			(at 178.054 91.694 90)
 			(effects
 				(font
@@ -4213,7 +4223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RES_CRCW_0603"
 			(at 72.136 129.794 90)
 			(effects
 				(font
@@ -4467,7 +4477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:G-155_MUR"
 			(at 175.26 96.8248 0)
 			(effects
 				(font
@@ -4537,7 +4547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0402N_VIS"
 			(at 201.676 141.224 90)
 			(effects
 				(font
@@ -4607,7 +4617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RES_CRCW_0402"
 			(at 51.816 118.364 90)
 			(effects
 				(font
@@ -4644,76 +4654,6 @@
 			(project "IRIS_Converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
 					(reference "Rt")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 67.31 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7db0b9bb-9ef9-4b38-95a7-d4959d6934c0")
-		(property "Reference" "Cvin"
-			(at 71.12 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 71.12 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.2752 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "29.6mOhm"
-			(at 67.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b280da6c-28ad-4870-aee5-f3b77a29ca54")
-		)
-		(pin "1"
-			(uuid "c9b8d5d4-6680-4114-8d27-d233db896dc7")
-		)
-		(instances
-			(project "converter"
-				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "Cvin")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:G-155_MUR"
 			(at 211.7852 125.73 0)
 			(effects
 				(font
@@ -4906,7 +4846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0603N_YAG"
 			(at 126.746 112.014 90)
 			(effects
 				(font
@@ -4976,7 +4916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0402N_VIS"
 			(at 211.836 110.744 90)
 			(effects
 				(font
@@ -5028,7 +4968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a562068e-17d7-4ab2-b129-21f8219a292a")
-		(property "Reference" "2.2uH"
+		(property "Reference" "1.2uH"
 			(at 157.48 99.06 90)
 			(effects
 				(font
@@ -5036,7 +4976,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "L1"
 			(at 157.48 101.6 90)
 			(effects
 				(font
@@ -5044,7 +4984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:IND_IHLP_5050_FD_VIS"
 			(at 157.48 104.14 0)
 			(effects
 				(font
@@ -5080,7 +5020,7 @@
 		(instances
 			(project ""
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
-					(reference "2.2uH")
+					(reference "1.2uH")
 					(unit 1)
 				)
 			)
@@ -5112,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:G-155_MUR"
 			(at 168.91 91.7448 0)
 			(effects
 				(font
@@ -5248,7 +5188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:CAP_MSAS32-M_TAY"
 			(at 37.7952 90.17 0)
 			(effects
 				(font
@@ -5318,7 +5258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:CAP_3216_TDK"
 			(at 133.0452 134.62 0)
 			(effects
 				(font
@@ -5388,7 +5328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:G-155_MUR"
 			(at 60.6552 118.11 0)
 			(effects
 				(font
@@ -5458,7 +5398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:PCAP_SVP_E12_PAN"
 			(at 226.06 118.11 0)
 			(effects
 				(font
@@ -5528,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0402N_VIS"
 			(at 68.326 62.484 90)
 			(effects
 				(font
@@ -5598,7 +5538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0603N_YAG"
 			(at 139.446 112.014 90)
 			(effects
 				(font
@@ -5666,7 +5606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:CAP_1608_TDK"
 			(at 127 96.8248 0)
 			(effects
 				(font
@@ -5956,7 +5896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RC0603N_YAG"
 			(at 201.676 110.744 90)
 			(effects
 				(font
@@ -5999,12 +5939,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 67.31 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6912a8b-6e4c-4077-a70d-72b92d99c948")
+		(property "Reference" "Cvin"
+			(at 71.12 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "20A_Library:CAP_1608_TDK"
+			(at 66.3448 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37a4dca8-a5f2-45cd-8520-e51a76dfdfed")
+		)
+		(pin "1"
+			(uuid "31bf7319-00fe-46b5-896d-8e04b09ae1b0")
+		)
+		(instances
+			(project "IRIS_Converter"
+				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
+					(reference "Cvin")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 151.13 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "fcdcdc97-ca24-447c-9606-4af2c3d04c87")
 		(property "Reference" "Rilim"
@@ -6025,7 +6035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "20A_Library:RES_CRCW_0402"
 			(at 152.146 92.964 90)
 			(effects
 				(font
