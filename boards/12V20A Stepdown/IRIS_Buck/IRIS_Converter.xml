@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\ozan0\.git\IRIS_PCB\boards\12V20A Stepdown\IRIS_Buck\IRIS_Converter.kicad_sch</source>
+    <date>2026-01-31T15:09:13-0600</date>
+    <tool>Eeschema 9.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IRIS_Converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="1.2uH1">
+      <value>L1</value>
+      <footprint>20A_Library:IND_IHLP_5050_FD_VIS</footprint>
+      <datasheet>~</datasheet>
+      <description>5.7mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:IND_IHLP_5050_FD_VIS</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">5.7mOhm</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a562068e-17d7-4ab2-b129-21f8219a292a</tstamps>
+    </comp>
+    <comp ref="Cbst1">
+      <value>100nF</value>
+      <footprint>20A_Library:CAP_1608_TDK</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">20A_Library:CAP_1608_TDK</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d535c046-462a-44e1-8248-0a8572ff6674</tstamps>
+    </comp>
+    <comp ref="Ccomp1">
+      <value>8.2nF</value>
+      <footprint>20A_Library:G-155_MUR</footprint>
+      <datasheet>~</datasheet>
+      <description>1mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:G-155_MUR</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">1mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a59d5488-743d-415c-b95c-b272a9f5749c</tstamps>
+    </comp>
+    <comp ref="Ccomp2">
+      <value>560pF</value>
+      <footprint>20A_Library:G-155_MUR</footprint>
+      <datasheet>~</datasheet>
+      <description>1mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:G-155_MUR</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">1mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cdef086-a9cf-4edc-9334-96900edef17e</tstamps>
+    </comp>
+    <comp ref="Ccomp3">
+      <value>560pF</value>
+      <footprint>20A_Library:G-155_MUR</footprint>
+      <datasheet>~</datasheet>
+      <description>1mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:G-155_MUR</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">1mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bb48e0c-2b10-4e22-984a-626ce5afdbb8</tstamps>
+    </comp>
+    <comp ref="Cilim1">
+      <value>6.8pF</value>
+      <footprint>20A_Library:CAP_06031U0R5BAT2A</footprint>
+      <datasheet>~</datasheet>
+      <description>0Ohm</description>
+      <fields>
+        <field name="Footprint">20A_Library:CAP_06031U0R5BAT2A</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">0Ohm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3185b2b8-cbf5-481f-8ad3-c3b593cd75db</tstamps>
+    </comp>
+    <comp ref="Cin1">
+      <value>4.7uF</value>
+      <footprint>20A_Library:CAP_MSAS32-M_TAY</footprint>
+      <datasheet>~</datasheet>
+      <description>6.456mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:CAP_MSAS32-M_TAY</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">6.456mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b22face4-0c1b-4baa-82de-c82bf2c6f633</tstamps>
+    </comp>
+    <comp ref="Cout1">
+      <value>100uF</value>
+      <footprint>20A_Library:PCAP_SVP_E12_PAN</footprint>
+      <datasheet>~</datasheet>
+      <description>30mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:PCAP_SVP_E12_PAN</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">30mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbc46195-0036-4e50-a33c-01498e9c4160</tstamps>
+    </comp>
+    <comp ref="Css1">
+      <value>56nF</value>
+      <footprint>20A_Library:G-155_MUR</footprint>
+      <datasheet>~</datasheet>
+      <description>3.999mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:G-155_MUR</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">3.999mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be87d359-924e-415c-a220-c618f6e6a43c</tstamps>
+    </comp>
+    <comp ref="Cvcc1">
+      <value>2.2uF</value>
+      <footprint>20A_Library:CAP_3216_TDK</footprint>
+      <datasheet>~</datasheet>
+      <description>3.999mOhm</description>
+      <fields>
+        <field name="Footprint">20A_Library:CAP_3216_TDK</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">3.999mOhm</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc019efa-c4ae-46d3-869d-001fde0fee8e</tstamps>
+    </comp>
+    <comp ref="Cvin1">
+      <value>100nF</value>
+      <footprint>20A_Library:CAP_1608_TDK</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">20A_Library:CAP_1608_TDK</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6912a8b-6e4c-4077-a70d-72b92d99c948</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TB005-762-02BE</value>
+      <footprint>TB005-762-02BE:CUI_TB005-762-02BE</footprint>
+      <fields>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="Footprint">TB005-762-02BE:CUI_TB005-762-02BE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TB005-762-02BE" part="TB005-762-02BE" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="CUI"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f038f13c-c16a-4724-8302-c01af05f239e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TB005-762-02BE</value>
+      <footprint>TB005-762-02BE:CUI_TB005-762-02BE</footprint>
+      <fields>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="Footprint">TB005-762-02BE:CUI_TB005-762-02BE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TB005-762-02BE" part="TB005-762-02BE" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="CUI"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8616c40e-4b34-4b37-bf46-a3f450238d51</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>CSD17571Q2</value>
+      <footprint>CSD17571Q2:TRANS_CSD17571Q2</footprint>
+      <fields>
+        <field name="PARTREV">A</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.85 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Footprint">CSD17571Q2:TRANS_CSD17571Q2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CSD17571Q2" part="CSD17571Q2" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.85 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef1b9f4b-2442-4daa-bca8-560054ca9432</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>CSD16340Q3</value>
+      <footprint>CSD16340Q3:TRANS_CSD16340Q3</footprint>
+      <fields>
+        <field name="PARTREV">E</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.1 mm</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="Footprint">CSD16340Q3:TRANS_CSD16340Q3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CSD16340Q3" part="CSD16340Q3" description=""/>
+      <property name="PARTREV" value="E"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.1 mm"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d75474b-fbf9-4ba4-b72d-e740b6cb9f69</tstamps>
+    </comp>
+    <comp ref="Rcomp1">
+      <value>2.15kOhm</value>
+      <footprint>20A_Library:RES_CRCW_0402</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RES_CRCW_0402</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fa2213a-6f1e-45fa-87e4-2bc614c999fd</tstamps>
+    </comp>
+    <comp ref="Rcomp2">
+      <value>4.32kOhm</value>
+      <footprint>20A_Library:RC0402N_VIS</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0402N_VIS</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0eefa94-3500-411f-8188-988b1ab5d9fa</tstamps>
+    </comp>
+    <comp ref="Rfbb1">
+      <value>1.27kOhm</value>
+      <footprint>20A_Library:RC0402N_VIS</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0402N_VIS</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72517376-7841-4be5-898f-5075ef8be211</tstamps>
+    </comp>
+    <comp ref="Rfbt1">
+      <value>18kOhm</value>
+      <footprint>20A_Library:RC0603N_YAG</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0603N_YAG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f62b6317-4442-434e-b2cb-03510f0195bb</tstamps>
+    </comp>
+    <comp ref="Rilim1">
+      <value>1.1kOhm</value>
+      <footprint>20A_Library:RES_CRCW_0402</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RES_CRCW_0402</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcdcdc97-ca24-447c-9606-4af2c3d04c87</tstamps>
+    </comp>
+    <comp ref="Rpgood1">
+      <value>20kOhm</value>
+      <footprint>20A_Library:RC0603N_YAG</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0603N_YAG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e7609d6-3bed-421f-b11f-c6f042169e68</tstamps>
+    </comp>
+    <comp ref="Rt1">
+      <value>39.2 kOhm</value>
+      <footprint>20A_Library:RES_CRCW_0402</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RES_CRCW_0402</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73b4c93d-9459-4d14-8093-c3689f01ea8d</tstamps>
+    </comp>
+    <comp ref="Ruv1">
+      <value>64.9kOhm</value>
+      <footprint>20A_Library:RC0402N_VIS</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0402N_VIS</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a2cb43b-5454-48e3-8e0b-28d564565784</tstamps>
+    </comp>
+    <comp ref="Ruv2">
+      <value>8.25kOhm</value>
+      <footprint>20A_Library:RES_CRCW_0603</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RES_CRCW_0603</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>432ad8f8-7d18-42d7-8aa6-a0ab4ecee114</tstamps>
+    </comp>
+    <comp ref="Rvcc1">
+      <value>20kOhm</value>
+      <footprint>20A_Library:RC0603N_YAG</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0603N_YAG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3f9a313-f6a4-4bbd-b3e8-bd862812187b</tstamps>
+    </comp>
+    <comp ref="Rvin1">
+      <value>2.1ohm</value>
+      <footprint>20A_Library:RC0402N_VIS</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="Footprint">20A_Library:RC0402N_VIS</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3d45be7-e3fd-4e7b-a0aa-18441da05203</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM25145RGYR</value>
+      <footprint>LM25145RGYR:IC_LM25145RGYR</footprint>
+      <fields>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1mm</field>
+        <field name="CREATOR">NEZY</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">June 2017</field>
+        <field name="VERIFIER"/>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="Footprint">LM25145RGYR:IC_LM25145RGYR</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="LM25145RGYR" part="LM25145RGYR" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1mm"/>
+      <property name="CREATOR" value="NEZY"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="June 2017"/>
+      <property name="VERIFIER" value=""/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="IRIS_Converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cf6d34c-9115-4cd7-bb52-273b8f3c11ed</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CSD16340Q3" part="CSD16340Q3">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD16340Q3</field>
+        <field name="Footprint">CSD16340Q3:TRANS_CSD16340Q3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">E</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.1 mm</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5-8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CSD17571Q2" part="CSD17571Q2">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD17571Q2</field>
+        <field name="Footprint">CSD17571Q2:TRANS_CSD17571Q2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">A</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.85 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor, small US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM25145RGYR" part="LM25145RGYR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM25145RGYR</field>
+        <field name="Footprint">LM25145RGYR:IC_LM25145RGYR</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1mm</field>
+        <field name="CREATOR">NEZY</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">June 2017</field>
+        <field name="VERIFIER"/>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN/UVLO" type="input"/>
+        <pin num="2" name="RT" type="input"/>
+        <pin num="3" name="SS/TRK" type="input"/>
+        <pin num="4" name="COMP" type="output"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="AGND" type="power_in"/>
+        <pin num="7" name="SYNCOUT" type="output"/>
+        <pin num="8" name="SYNCIN" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="PGOOD" type="output"/>
+        <pin num="11" name="ILIM" type="input"/>
+        <pin num="12" name="PGND" type="power_in"/>
+        <pin num="13" name="LO" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="EP" type="passive"/>
+        <pin num="16" name="NC__1" type="no_connect"/>
+        <pin num="17" name="BST" type="output"/>
+        <pin num="18" name="HO" type="output"/>
+        <pin num="19" name="SW" type="passive"/>
+        <pin num="20" name="VIN" type="input"/>
+        <pin num="21" name="EP__1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TB005-762-02BE" part="TB005-762-02BE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TB005-762-02BE</field>
+        <field name="Footprint">TB005-762-02BE:CUI_TB005-762-02BE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">CUI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="Cilim1" pin="2" pintype="passive"/>
+      <node ref="Cin1" pin="2" pintype="passive"/>
+      <node ref="Cout1" pin="2" pintype="passive"/>
+      <node ref="Css1" pin="2" pintype="passive"/>
+      <node ref="Cvcc1" pin="2" pintype="passive"/>
+      <node ref="Cvin1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="4" pintype="passive"/>
+      <node ref="Q1" pin="8" pintype="passive"/>
+      <node ref="Rfbb1" pin="2" pintype="passive"/>
+      <node ref="Rt1" pin="2" pintype="passive"/>
+      <node ref="Ruv2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="EP" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="EP__1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(1.2uH1-Pad2)" class="Default">
+      <node ref="1.2uH1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Cout1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Rcomp2" pin="1" pintype="passive"/>
+      <node ref="Rfbt1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(Ccomp1-Pad2)" class="Default">
+      <node ref="Ccomp1" pin="2" pintype="passive"/>
+      <node ref="Rcomp1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(Ccomp3-Pad1)" class="Default">
+      <node ref="Ccomp3" pin="1" pintype="passive"/>
+      <node ref="Rcomp2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(Cin1-Pad1)" class="Default">
+      <node ref="Cin1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="5-8" pintype="passive"/>
+      <node ref="Ruv1" pin="1" pintype="passive"/>
+      <node ref="Rvin1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(U1-BST)" class="Default">
+      <node ref="Cbst1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="BST" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(U1-COMP)" class="Default">
+      <node ref="Ccomp1" pin="1" pintype="passive"/>
+      <node ref="Ccomp2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="COMP" pintype="output"/>
+    </net>
+    <net code="8" name="Net-(U1-EN/UVLO)" class="Default">
+      <node ref="Ruv1" pin="2" pintype="passive"/>
+      <node ref="Ruv2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN/UVLO" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(U1-FB)" class="Default">
+      <node ref="Ccomp2" pin="2" pintype="passive"/>
+      <node ref="Ccomp3" pin="2" pintype="passive"/>
+      <node ref="Rcomp1" pin="2" pintype="passive"/>
+      <node ref="Rfbb1" pin="1" pintype="passive"/>
+      <node ref="Rfbt1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(U1-HO)" class="Default">
+      <node ref="Q2" pin="4" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(U1-ILIM)" class="Default">
+      <node ref="Cilim1" pin="1" pintype="passive"/>
+      <node ref="Rilim1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(U1-LO)" class="Default">
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(U1-PGOOD)" class="Default">
+      <node ref="Rpgood1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PGOOD" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(U1-RT)" class="Default">
+      <node ref="Rt1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U1-SS/TRK)" class="Default">
+      <node ref="Css1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SS/TRK" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(U1-SW)" class="Default">
+      <node ref="1.2uH1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Cbst1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="5" pintype="passive"/>
+      <node ref="Q1" pin="6" pintype="passive"/>
+      <node ref="Q1" pin="7" pintype="passive"/>
+      <node ref="Q2" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="Rilim1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U1-SYNCIN)" class="Default">
+      <node ref="Rvcc1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SYNCIN" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U1-VCC)" class="Default">
+      <node ref="Cvcc1" pin="1" pintype="passive"/>
+      <node ref="Rpgood1" pin="2" pintype="passive"/>
+      <node ref="Rvcc1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(U1-VIN)" class="Default">
+      <node ref="Cvin1" pin="2" pintype="passive"/>
+      <node ref="Rvin1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U1-NC-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-NC__1-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="NC__1" pintype="no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-SYNCOUT-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="SYNCOUT" pintype="output"/>
+    </net>
+  </nets>
+</export>
