@@ -2471,6 +2471,10 @@
 		(color 0 0 0 0)
 		(uuid "fbd22671-1db8-49ed-b060-f7ad3817ed79")
 	)
+	(no_connect
+		(at 77.47 92.71)
+		(uuid "5a8064ef-f0c9-42d2-a080-c039bfed7431")
+	)
 	(wire
 		(pts
 			(xy 77.47 97.79) (xy 57.15 97.79)
@@ -2853,6 +2857,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 147.32) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b681ea7-1bac-4da6-8088-09079d67d422")
+	)
+	(wire
+		(pts
 			(xy 149.86 104.14) (xy 151.13 104.14)
 		)
 		(stroke
@@ -2923,23 +2937,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 256.54 104.14)
+			(xy 226.06 104.14) (xy 261.62 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "569b9aca-7b1d-430e-801d-296da021d4a1")
-	)
-	(wire
-		(pts
-			(xy 256.54 124.46) (xy 256.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569e0d55-d3e7-4ce4-8a62-00f81c6be7b3")
 	)
 	(wire
 		(pts
@@ -3123,6 +3127,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 104.14) (xy 261.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db5ffbd-fca1-4526-ae35-f32f20e686b0")
+	)
+	(wire
+		(pts
 			(xy 25.4 147.32) (xy 30.48 147.32)
 		)
 		(stroke
@@ -3250,6 +3264,16 @@
 			(type default)
 		)
 		(uuid "99bb4ffd-8590-434f-9dd2-62b484c00d05")
+	)
+	(wire
+		(pts
+			(xy 256.54 127) (xy 261.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccf9607-7742-4d84-9025-e638c47fc68a")
 	)
 	(wire
 		(pts
@@ -3493,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 124.46) (xy 256.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd72a092-b897-4950-b85b-62f0dd0f62ac")
+	)
+	(wire
+		(pts
 			(xy 143.51 76.2) (xy 170.18 76.2)
 		)
 		(stroke
@@ -3593,16 +3627,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 127) (xy 256.54 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d65471-8371-4895-887c-def41361ee55")
-	)
-	(wire
-		(pts
 			(xy 116.84 147.32) (xy 132.08 147.32)
 		)
 		(stroke
@@ -3663,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 147.32) (xy 226.06 147.32)
+			(xy 226.06 147.32) (xy 259.08 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3800,6 +3824,66 @@
 			(type default)
 		)
 		(uuid "ffbc1cd7-2139-40e8-80a8-0d11201405a5")
+	)
+	(label "EN{slash}UVLO"
+		(at 77.47 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16c39046-feb4-44e3-8308-653b43bfbd19")
+	)
+	(label "SS{slash}TRK"
+		(at 77.47 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a5ccac7-3a0f-4874-b679-afa675513619")
+	)
+	(label "Vout"
+		(at 261.62 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b295874-98dc-4667-8d64-91a171a1c76f")
+	)
+	(label "SW"
+		(at 120.65 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6562f51c-907a-4eb2-9733-7f29a3186810")
+	)
+	(label "Vin"
+		(at 36.83 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6cadd85-a707-4aa0-92f9-a280499c18da")
+	)
+	(label "SYNCin"
+		(at 77.47 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f01533ed-c671-4a7b-b701-aa03d1c13558")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4597,7 +4681,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73b4c93d-9459-4d14-8093-c3689f01ea8d")
 		(property "Reference" "Rt1"
 			(at 53.34 116.8399 0)
@@ -4751,15 +4834,15 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 210.82 121.92 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9bb48e0c-2b10-4e22-984a-626ce5afdbb8")
 		(property "Reference" "Ccomp3"
-			(at 214.63 120.6499 0)
+			(at 207.01 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4851,7 @@
 			)
 		)
 		(property "Value" "560pF"
-			(at 214.63 123.1899 0)
+			(at 207.01 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4860,7 @@
 			)
 		)
 		(property "Footprint" "20A_Library:G-155_MUR"
-			(at 211.7852 125.73 0)
+			(at 209.8548 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5391,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be87d359-924e-415c-a220-c618f6e6a43c")
 		(property "Reference" "Css1"
 			(at 63.5 113.0299 0)
@@ -6014,7 +6096,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "fcdcdc97-ca24-447c-9606-4af2c3d04c87")
 		(property "Reference" "Rilim1"
