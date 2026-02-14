@@ -1341,25 +1341,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 28.575 0)
+			(property "Reference" "U1"
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "LM25145RGYR"
-				(at -12.7 -33.02 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM25145RGYR:IC_LM25145RGYR"
+			(property "Footprint" "10A_LIbrary:RGY0020B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1838,6 +1836,26 @@
 					)
 				)
 			)
+			(symbol "LM25145RGYR_1_1"
+				(pin passive line
+					(at -15.24 -27.94 0)
+					(length 2.54)
+					(name "EP_V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "TB005-762-02BE:TB005-762-02BE"
@@ -2199,6 +2217,12 @@
 		(uuid "ae5aa463-5f7b-4746-af8c-b2e241aa0775")
 	)
 	(junction
+		(at 88.9 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae7fb083-6d34-4e6d-8195-53aea37ab24f")
+	)
+	(junction
 		(at 59.69 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2396,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 124.46) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bb38f1-1098-4a62-9738-49c8616dd814")
+	)
+	(wire
+		(pts
 			(xy 207.01 39.37) (xy 207.01 86.36)
 		)
 		(stroke
@@ -2456,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 138.43) (xy 128.27 138.43)
+			(xy 82.55 138.43) (xy 88.9 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2826,6 +2860,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 124.46) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd4cf7f-517e-4bd6-97af-e082f145b711")
+	)
+	(wire
+		(pts
 			(xy 172.72 83.82) (xy 171.45 83.82)
 		)
 		(stroke
@@ -2853,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "71eb0794-ff23-4146-87a7-6ee8b23abc2f")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72635916-85f4-4bc1-b4ce-c522ac38e0a8")
 	)
 	(wire
 		(pts
@@ -4084,6 +4138,9 @@
 		)
 		(pin "21"
 			(uuid "e38afe7f-2422-4480-880c-838637f40a1a")
+		)
+		(pin "V"
+			(uuid "64f6ec64-ac0d-45ac-8b6f-4e3213fe4c53")
 		)
 		(instances
 			(project "converter"
