@@ -12,25 +12,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -8.89 2.54 0)
+			(property "Reference" "Q2"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "CSD16340Q3"
-				(at -8.89 -7.62 0)
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "CSD16340Q3:TRANS_CSD16340Q3"
+			(property "Footprint" "20A_Library:DQG0008A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -356,24 +356,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5-8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "~"
@@ -428,6 +410,116 @@
 					)
 				)
 			)
+			(symbol "CSD16340Q3_1_0"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "CSD17571Q2:CSD17571Q2"
@@ -437,25 +529,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -8.89 2.54 0)
+			(property "Reference" "Q1"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "CSD17571Q2"
-				(at -8.89 -7.62 0)
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "CSD17571Q2:TRANS_CSD17571Q2"
+			(property "Footprint" "20A_Library:DQK0006C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -853,24 +945,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "~"
@@ -888,6 +962,26 @@
 						)
 					)
 				)
+			)
+			(symbol "CSD17571Q2_1_0"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -898,7 +992,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1554,25 +1648,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 28.575 0)
+			(property "Reference" "U1"
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "LM25145RGYR"
-				(at -12.7 -33.02 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LM25145RGYR:IC_LM25145RGYR"
+			(property "Footprint" "20A_Library:RGY0020B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2043,6 +2135,26 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM25145RGYR_1_0"
+				(pin passive line
+					(at -17.78 -27.94 0)
+					(length 5.08)
+					(name "V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "V"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2534,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "0652f7d4-e4f1-40a8-9626-e4ec3cec45f8")
+	)
+	(wire
+		(pts
+			(xy 77.47 133.35) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0addc47d-5465-4516-8749-731f716347df")
 	)
 	(wire
 		(pts
@@ -4229,8 +4351,23 @@
 		(pin "4"
 			(uuid "b1a995e0-11fa-4942-9886-d8d14d495858")
 		)
-		(pin "5-8"
+		(pin "6"
 			(uuid "5a5e9799-500c-4e9a-bbcc-3923f4c8eccc")
+		)
+		(pin "5"
+			(uuid "c81cf00f-77f4-4392-b1b9-e10fabd77e97")
+		)
+		(pin "8"
+			(uuid "897e8121-0779-4e9c-af83-5c9dfa9d2d90")
+		)
+		(pin "7"
+			(uuid "7cd63e62-7d9b-4254-bd6d-3b2d3e634b92")
+		)
+		(pin "V"
+			(uuid "bc8094b6-aa78-4643-8dd2-852628e3c41c")
+		)
+		(pin "9"
+			(uuid "2802d2d2-b514-4244-a91b-a1d2f0d80906")
 		)
 		(instances
 			(project ""
@@ -4555,6 +4692,9 @@
 		)
 		(pin "21"
 			(uuid "e38afe7f-2422-4480-880c-838637f40a1a")
+		)
+		(pin "V"
+			(uuid "5b257283-4aa9-478b-9f75-8fe02e00e643")
 		)
 		(instances
 			(project ""
@@ -5477,6 +5617,72 @@
 			(project "converter"
 				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
 					(reference "Css1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c192d0de-0d1c-4d90-860e-c32731fb04ca")
+		(property "Reference" "#PWR03"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c929db2-33f5-4443-b8a8-13c56c82c01e")
+		)
+		(instances
+			(project "IRIS_Converter"
+				(path "/1513ce43-e5f2-482b-99a2-cdd75b9aa1c1"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
